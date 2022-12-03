@@ -11,7 +11,7 @@ namespace Infrastructure.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "ProductName",
+                name: "Grades",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
@@ -20,11 +20,11 @@ namespace Infrastructure.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ProductName", x => x.Id);
+                    table.PrimaryKey("PK_Grades", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Warehouse",
+                name: "Warehouses",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
@@ -33,7 +33,7 @@ namespace Infrastructure.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Warehouse", x => x.Id);
+                    table.PrimaryKey("PK_Warehouses", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -42,7 +42,7 @@ namespace Infrastructure.Data.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    ProductNameId = table.Column<int>(type: "INTEGER", nullable: false),
+                    GradeId = table.Column<int>(type: "INTEGER", nullable: false),
                     LotNumber = table.Column<string>(type: "TEXT", nullable: true),
                     BagNumber = table.Column<int>(type: "INTEGER", nullable: false),
                     Weight = table.Column<int>(type: "INTEGER", nullable: false),
@@ -56,23 +56,23 @@ namespace Infrastructure.Data.Migrations
                 {
                     table.PrimaryKey("PK_Products", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Products_ProductName_ProductNameId",
-                        column: x => x.ProductNameId,
-                        principalTable: "ProductName",
+                        name: "FK_Products_Grades_GradeId",
+                        column: x => x.GradeId,
+                        principalTable: "Grades",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Products_Warehouse_WarehouseId",
+                        name: "FK_Products_Warehouses_WarehouseId",
                         column: x => x.WarehouseId,
-                        principalTable: "Warehouse",
+                        principalTable: "Warehouses",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Products_ProductNameId",
+                name: "IX_Products_GradeId",
                 table: "Products",
-                column: "ProductNameId");
+                column: "GradeId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Products_WarehouseId",
@@ -87,10 +87,10 @@ namespace Infrastructure.Data.Migrations
                 name: "Products");
 
             migrationBuilder.DropTable(
-                name: "ProductName");
+                name: "Grades");
 
             migrationBuilder.DropTable(
-                name: "Warehouse");
+                name: "Warehouses");
         }
     }
 }
