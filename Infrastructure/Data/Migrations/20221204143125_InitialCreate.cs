@@ -42,13 +42,13 @@ namespace Infrastructure.Data.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
+                    WarehouseId = table.Column<int>(type: "INTEGER", nullable: false),
                     GradeId = table.Column<int>(type: "INTEGER", nullable: false),
+                    Weight = table.Column<int>(type: "INTEGER", nullable: false),
                     LotNumber = table.Column<string>(type: "TEXT", nullable: true),
                     BagNumber = table.Column<int>(type: "INTEGER", nullable: false),
-                    Weight = table.Column<int>(type: "INTEGER", nullable: false),
-                    WarehouseId = table.Column<int>(type: "INTEGER", nullable: false),
-                    DecantNote = table.Column<string>(type: "TEXT", nullable: true),
                     Packaging = table.Column<string>(type: "TEXT", nullable: true),
+                    DecantNote = table.Column<string>(type: "TEXT", nullable: true),
                     Status = table.Column<string>(type: "TEXT", nullable: true),
                     Notes = table.Column<string>(type: "TEXT", nullable: true)
                 },

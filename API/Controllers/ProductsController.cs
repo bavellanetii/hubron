@@ -20,11 +20,11 @@ namespace API.Controllers
         public ProductsController(IProductRepository repo)
         {
             _repo = repo;
-            
+
         }
 
         [HttpGet]
-        public async Task <ActionResult<List<Product>>> GetProducts()
+        public async Task<ActionResult<List<Product>>> GetProducts()
         {
             //this will be a list of products
             var products = await _repo.GetProductsAsync();
@@ -37,5 +37,18 @@ namespace API.Controllers
             //this will be a single product
             return await _repo.GetProductByIdAsync(id);
         }
+
+        [HttpGet("grades")]
+        public async Task<ActionResult<IReadOnlyList<Grade>>> GetGrades()
+        {
+            return Ok(await _repo.GetGradesAsync());
+        }
+
+        [HttpGet("warehouses")]
+        public async Task<ActionResult<IReadOnlyList<Warehouse>>> GetWarehouses()
+        {
+            return Ok(await _repo.GetWarehousesAsync());
+        }
+
     }
 }
