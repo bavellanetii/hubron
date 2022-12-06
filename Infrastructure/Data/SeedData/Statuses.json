@@ -1,0 +1,18 @@
+[
+ {
+  "Id": 1,
+  "Name": "Allocated"
+ },
+ {
+  "Id": 2,
+  "Name": "Stock"
+ },
+ {
+  "Id": 3,
+  "Name": "Lab"
+ },
+ {
+  "Id": 4,
+  "Name": "Other"
+ }
+]

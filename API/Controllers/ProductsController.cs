@@ -15,19 +15,24 @@ namespace API.Controllers
 
     public class ProductsController : ControllerBase
     {
-        private readonly IProductRepository _repo;
-
-        public ProductsController(IProductRepository repo)
+        private readonly IGenericRepository<Grade> _gradesRepo;
+        private readonly IGenericRepository<Warehouse> _warehousesRepo;
+        private readonly IGenericRepository<Product> _productsRepo;
+ 
+        public ProductsController(IGenericRepository<Product> productsRepo, 
+                                  IGenericRepository<Grade> gradesRepo, 
+                                  IGenericRepository<Warehouse> warehousesRepo)
         {
-            _repo = repo;
-
+            _warehousesRepo = warehousesRepo;
+            _gradesRepo = gradesRepo;
+            _productsRepo = productsRepo;
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
         {
             //this will be a list of products
-            var products = await _repo.GetProductsAsync();
+            var products = await _productsRepo.ListAllAsync();
             return Ok(products);
         }
 
@@ -35,19 +40,19 @@ namespace API.Controllers
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
             //this will be a single product
-            return await _repo.GetProductByIdAsync(id);
+            return await _productsRepo.GetByIdAsync(id);
         }
 
         [HttpGet("grades")]
         public async Task<ActionResult<IReadOnlyList<Grade>>> GetGrades()
         {
-            return Ok(await _repo.GetGradesAsync());
+            return Ok(await _gradesRepo.ListAllAsync());
         }
 
         [HttpGet("warehouses")]
         public async Task<ActionResult<IReadOnlyList<Warehouse>>> GetWarehouses()
         {
-            return Ok(await _repo.GetWarehousesAsync());
+            return Ok(await _warehousesRepo.ListAllAsync());
         }
 
     }

@@ -12,6 +12,9 @@ namespace Core.Interfaces
         Task<IReadOnlyList<Product>> GetProductsAsync();
         Task<IReadOnlyList<Warehouse>> GetWarehousesAsync();
         Task<IReadOnlyList<Grade>> GetGradesAsync();
-        
+        Task<IReadOnlyList<LotNumber>> GetLotNumbersAsync();
+        Task<IReadOnlyList<Status>> GetStatusesAsync();
+        Task<IReadOnlyList<Packaging>> GetPackagingAsync();
+
     }
 }

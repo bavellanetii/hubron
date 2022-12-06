@@ -42,6 +42,49 @@ namespace Infrastructure.Data
                     await context.SaveChangesAsync();
                 }
 
+                if (!context.LotNumbers.Any())
+                {
+                    var lotNumberData = File.ReadAllText("../Infrastructure/Data/SeedData/LotNumbers.json");
+
+                    var lotNumbers = JsonSerializer.Deserialize<List<LotNumber>>(lotNumberData);
+
+                    foreach (var item in lotNumbers)
+                    {
+                        context.LotNumbers.Add(item);
+                    }
+
+                    await context.SaveChangesAsync();
+                }
+
+                if (!context.Packaging.Any())
+                {
+                    var packagingData = File.ReadAllText("../Infrastructure/Data/SeedData/Packaging.json");
+
+                    var packaging = JsonSerializer.Deserialize<List<Packaging>>(packagingData);
+
+                    foreach (var item in packaging)
+                    {
+                        context.Packaging.Add(item);
+                    }
+
+                    await context.SaveChangesAsync();
+                }
+
+                
+                if (!context.Statuses.Any())
+                {
+                    var statusData = File.ReadAllText("../Infrastructure/Data/SeedData/Statuses.json");
+
+                    var statuses = JsonSerializer.Deserialize<List<Status>>(statusData);
+
+                    foreach (var item in statuses)
+                    {
+                        context.Statuses.Add(item);
+                    }
+
+                    await context.SaveChangesAsync();
+                }
+
                 if (!context.Products.Any())
                 {
                     var productsData = File.ReadAllText("../Infrastructure/Data/SeedData/Stock.json");

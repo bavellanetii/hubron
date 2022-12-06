@@ -3,93 +3,93 @@
   "WarehouseId": 4,
   "GradeId": 1,
   "Weight": 122,
-  "LotNumber": "240719",
+  "LotNumberId": 83,
   "BagNumber": 1
  },
  {
   "WarehouseId": 7,
   "GradeId": 2,
   "Weight": 416,
-  "LotNumber": "230619",
+  "LotNumberId": 59,
   "BagNumber": 5
  },
  {
   "WarehouseId": 5,
   "GradeId": 3,
   "Weight": 4243,
-  "LotNumber": "211019",
-  "Packaging": "Foil",
-  "Status": "Allocated"
+  "LotNumberId": 16,
+  "PackagingId": 9,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 3,
   "Weight": 425,
-  "LotNumber": "230119"
+  "LotNumberId": 58
  },
  {
   "WarehouseId": 5,
   "GradeId": 3,
   "Weight": 1000,
-  "LotNumber": "230119",
-  "Packaging": "Foil",
-  "Status": "Allocated"
+  "LotNumberId": 58,
+  "PackagingId": 9,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 3,
   "Weight": 7380,
-  "LotNumber": "230119",
-  "Packaging": "Foil",
-  "Status": "Allocated"
+  "LotNumberId": 58,
+  "PackagingId": 9,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 3,
   "Weight": 300,
-  "LotNumber": "243919G"
+  "LotNumberId": 91
  },
  {
   "WarehouseId": 1,
   "GradeId": 4,
   "Weight": 460,
-  "LotNumber": "250219",
+  "LotNumberId": 121,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 7,
   "GradeId": 4,
   "Weight": 259,
-  "LotNumber": "250219",
+  "LotNumberId": 121,
   "BagNumber": 3
  },
  {
   "WarehouseId": 7,
   "GradeId": 4,
   "Weight": 238,
-  "LotNumber": "250219",
+  "LotNumberId": 121,
   "BagNumber": 4
  },
  {
   "WarehouseId": 7,
   "GradeId": 5,
   "Weight": 440,
-  "LotNumber": "224117",
+  "LotNumberId": 44,
   "BagNumber": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 6,
   "Weight": 1225,
-  "LotNumber": "213818",
-  "DecantNote": "27597"
+  "LotNumberId": 23,
+  "DecantNote": 27597
  },
  {
   "WarehouseId": 8,
   "GradeId": 6,
   "Weight": 175,
-  "LotNumber": "230718",
+  "LotNumberId": 60,
   "BagNumber": 3,
   "Notes": "144-150"
  },
@@ -97,7 +97,7 @@
   "WarehouseId": 8,
   "GradeId": 6,
   "Weight": 1250,
-  "LotNumber": "230718",
+  "LotNumberId": 60,
   "BagNumber": 4,
   "Notes": "151-200"
  },
@@ -105,2195 +105,2192 @@
   "WarehouseId": 5,
   "GradeId": 7,
   "Weight": 5000,
-  "LotNumber": "256119",
-  "Packaging": "Panther",
-  "DecantNote": "28545",
-  "Status": "Allocated"
+  "LotNumberId": 150,
+  "PackagingId": 5,
+  "DecantNote": 28545,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 7,
   "Weight": 300,
-  "LotNumber": "256119",
-  "Packaging": "Plain",
-  "DecantNote": "28615",
-  "Status": "Stock"
+  "LotNumberId": 150,
+  "PackagingId": 6,
+  "DecantNote": 28615,
+  "StatusId": 2
  },
  {
   "WarehouseId": 4,
   "GradeId": 8,
   "Weight": 582,
-  "LotNumber": "227919",
+  "LotNumberId": 56,
   "BagNumber": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 9,
   "Weight": 1250,
-  "LotNumber": "255419",
+  "LotNumberId": 145,
   "BagNumber": 15,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 9,
   "Weight": 1250,
-  "LotNumber": "255419",
+  "LotNumberId": 145,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 9,
   "Weight": 875,
-  "LotNumber": "239719",
-  "Packaging": "Trinseo",
-  "DecantNote": "27988",
-  "Status": "Stock"
+  "LotNumberId": 78,
+  "PackagingId": 7,
+  "DecantNote": 27988,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 9,
   "Weight": 50,
-  "LotNumber": "246719",
-  "Packaging": "Trinseo",
-  "DecantNote": "28233",
-  "Status": "Stock"
+  "LotNumberId": 104,
+  "PackagingId": 7,
+  "DecantNote": 28233,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 10,
   "Weight": 1250,
-  "LotNumber": "240819",
+  "LotNumberId": 84,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 10,
   "Weight": 1250,
-  "LotNumber": "240819",
+  "LotNumberId": 84,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 10,
   "Weight": 25,
-  "LotNumber": "240819",
-  "Packaging": "Plain",
-  "DecantNote": "28179",
-  "Status": "Stock"
+  "LotNumberId": 84,
+  "PackagingId": 6,
+  "DecantNote": 28179,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 11,
   "Weight": 1489,
-  "LotNumber": "256919",
+  "LotNumberId": 156,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 11,
   "Weight": 450,
-  "LotNumber": "216518",
+  "LotNumberId": 30,
   "BagNumber": 7
  },
  {
   "WarehouseId": 5,
   "GradeId": 11,
   "Weight": 125,
-  "LotNumber": "233619",
-  "Packaging": "Panther",
-  "DecantNote": "27972",
-  "Status": "Stock"
+  "LotNumberId": 67,
+  "PackagingId": 5,
+  "DecantNote": 27972,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 13,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 12,
   "Weight": 1240,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 14,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 12,
   "Weight": 876,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "225819",
-  "Packaging": "Panther",
-  "DecantNote": "28678",
-  "Status": "Allocated"
+  "LotNumberId": 47,
+  "PackagingId": 5,
+  "DecantNote": 28678,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 300,
-  "LotNumber": "246019",
-  "Packaging": "Plain",
-  "DecantNote": "28403",
-  "Status": "Stock"
+  "LotNumberId": 99,
+  "PackagingId": 6,
+  "DecantNote": 28403,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1000,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1000,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1000,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "261919",
+  "LotNumberId": 199,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 12,
   "Weight": 1250,
-  "LotNumber": "261919",
-  "Packaging": "Panther",
-  "DecantNote": "28678",
-  "Status": "Allocated"
+  "LotNumberId": 199,
+  "PackagingId": 5,
+  "DecantNote": 28678,
+  "StatusId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 13,
   "Weight": 1252,
-  "LotNumber": "253419",
+  "LotNumberId": 135,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 13,
   "Weight": 324,
-  "LotNumber": "253419",
+  "LotNumberId": 135,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 13,
   "Weight": 10000,
-  "LotNumber": "253419",
-  "Packaging": "Panther",
-  "DecantNote": "28547",
-  "Status": "Allocated"
+  "LotNumberId": 135,
+  "PackagingId": 5,
+  "DecantNote": 28547,
+  "StatusId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1074,
-  "LotNumber": "213319",
+  "LotNumberId": 22,
   "BagNumber": 19
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "253619",
+  "LotNumberId": 136,
   "BagNumber": 27
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "256019",
+  "LotNumberId": 149,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "256019",
+  "LotNumberId": 149,
   "BagNumber": 18,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "256019",
+  "LotNumberId": 149,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "256019",
+  "LotNumberId": 149,
   "BagNumber": 21,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "256019",
+  "LotNumberId": 149,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "256019",
+  "LotNumberId": 149,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "256019",
+  "LotNumberId": 149,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 13,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 14,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 15,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 18,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 19,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 20,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 21,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 22,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 23,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 24,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 25,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 26,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 214,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 27,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "262319",
+  "LotNumberId": 203,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 14,
   "Weight": 145,
-  "LotNumber": "250419",
+  "LotNumberId": 122,
   "BagNumber": 13
  },
  {
   "WarehouseId": 4,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "250419",
+  "LotNumberId": 122,
   "BagNumber": 14
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 225,
-  "LotNumber": "253719",
-  "Packaging": "Panther",
-  "DecantNote": "28245",
-  "Status": "Stock"
+  "LotNumberId": 137,
+  "PackagingId": 5,
+  "DecantNote": 28245,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 13,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 14,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 15,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 18,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 14,
   "Weight": 1250,
-  "LotNumber": "260819",
+  "LotNumberId": 190,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 15,
   "Weight": 1250,
-  "LotNumber": "259419",
+  "LotNumberId": 176,
   "BagNumber": 13,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 15,
   "Weight": 1250,
-  "LotNumber": "259419",
+  "LotNumberId": 176,
   "BagNumber": 14,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 15,
   "Weight": 575,
-  "LotNumber": "259419",
-  "Packaging": "Panther",
-  "DecantNote": "28620",
-  "Status": "Stock"
+  "LotNumberId": 176,
+  "PackagingId": 5,
+  "DecantNote": 28620,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 16,
   "Weight": 1250,
-  "LotNumber": "224119",
+  "LotNumberId": 45,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 16,
   "Weight": 1250,
-  "LotNumber": "224119",
+  "LotNumberId": 45,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 16,
   "Weight": 516,
-  "LotNumber": "245719",
+  "LotNumberId": 97,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 16,
   "Weight": 1250,
-  "LotNumber": "245719",
-  "Packaging": "Panther",
-  "DecantNote": "28675",
-  "Status": "Allocated"
+  "LotNumberId": 97,
+  "PackagingId": 5,
+  "DecantNote": 28675,
+  "StatusId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 17,
   "Weight": 1250,
-  "LotNumber": "260519",
+  "LotNumberId": 186,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 17,
   "Weight": 1250,
-  "LotNumber": "260519",
+  "LotNumberId": 186,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 17,
   "Weight": 1254,
-  "LotNumber": "260519",
+  "LotNumberId": 186,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 17,
   "Weight": 216,
-  "LotNumber": "260519",
+  "LotNumberId": 186,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 17,
   "Weight": 1250,
-  "LotNumber": "260519",
+  "LotNumberId": 186,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 17,
   "Weight": 1250,
-  "LotNumber": "260519",
+  "LotNumberId": 186,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 17,
   "Weight": 1250,
-  "LotNumber": "260519",
+  "LotNumberId": 186,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 17,
   "Weight": 1250,
-  "LotNumber": "260519",
+  "LotNumberId": 186,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 17,
   "Weight": 1250,
-  "LotNumber": "260519",
+  "LotNumberId": 186,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 17,
   "Weight": 1250,
-  "LotNumber": "260519",
+  "LotNumberId": 186,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 17,
   "Weight": 742,
-  "LotNumber": "239819",
+  "LotNumberId": 79,
   "BagNumber": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 17,
   "Weight": 2500,
-  "LotNumber": "227319",
-  "Packaging": "Panther",
-  "DecantNote": "28138",
-  "Status": "Allocated"
+  "LotNumberId": 53,
+  "PackagingId": 5,
+  "DecantNote": 28138,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 17,
   "Weight": 1250,
-  "LotNumber": "260519",
-  "Packaging": "Panther",
-  "DecantNote": "28682",
-  "Status": "Allocated"
+  "LotNumberId": 186,
+  "PackagingId": 5,
+  "DecantNote": 28682,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 17,
   "Weight": 750,
-  "LotNumber": "260519",
-  "Packaging": "Panther",
-  "DecantNote": "28682",
-  "Status": "Stock"
+  "LotNumberId": 186,
+  "PackagingId": 5,
+  "DecantNote": 28682,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 18,
   "Weight": 1250,
-  "LotNumber": "261519",
+  "LotNumberId": 196,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 18,
   "Weight": 1250,
-  "LotNumber": "261519",
+  "LotNumberId": 196,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 18,
   "Weight": 1250,
-  "LotNumber": "261519",
+  "LotNumberId": 196,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 18,
   "Weight": 1250,
-  "LotNumber": "261519",
+  "LotNumberId": 196,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 18,
   "Weight": 1250,
-  "LotNumber": "249819",
-  "Packaging": "Plain",
-  "DecantNote": "28456",
-  "Status": "Allocated"
+  "LotNumberId": 119,
+  "PackagingId": 6,
+  "DecantNote": 28456,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 18,
   "Weight": 5000,
-  "LotNumber": "259919",
-  "Packaging": "Panther",
-  "DecantNote": "28456",
-  "Status": "Allocated"
+  "LotNumberId": 181,
+  "PackagingId": 5,
+  "DecantNote": 28456,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 18,
   "Weight": 375,
-  "LotNumber": "259919",
-  "Packaging": "Plain",
-  "DecantNote": "28640",
-  "Status": "Stock"
+  "LotNumberId": 181,
+  "PackagingId": 6,
+  "DecantNote": 28640,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 18,
   "Weight": 20000,
-  "LotNumber": "261519",
-  "Packaging": "Panther",
-  "DecantNote": "28456",
-  "Status": "Allocated"
+  "LotNumberId": 196,
+  "PackagingId": 5,
+  "DecantNote": 28456,
+  "StatusId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 19,
   "Weight": 133,
-  "LotNumber": "232919",
+  "LotNumberId": 65,
   "BagNumber": 19
  },
  {
   "WarehouseId": 5,
   "GradeId": 19,
   "Weight": 779,
-  "LotNumber": "255819",
+  "LotNumberId": 148,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 20,
   "Weight": 1250,
-  "LotNumber": "262219",
+  "LotNumberId": 202,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 20,
   "Weight": 1250,
-  "LotNumber": "262219",
+  "LotNumberId": 202,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 20,
   "Weight": 1250,
-  "LotNumber": "262219",
+  "LotNumberId": 202,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 20,
   "Weight": 1250,
-  "LotNumber": "262219",
+  "LotNumberId": 202,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 20,
   "Weight": 382,
-  "LotNumber": "262219",
+  "LotNumberId": 202,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 20,
   "Weight": 1250,
-  "LotNumber": "262219",
+  "LotNumberId": 202,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 20,
   "Weight": 1250,
-  "LotNumber": "262219",
+  "LotNumberId": 202,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 20,
   "Weight": 2500,
-  "LotNumber": "262219",
-  "Packaging": "Panther",
-  "DecantNote": "28657",
-  "Status": "Allocated"
+  "LotNumberId": 202,
+  "PackagingId": 5,
+  "DecantNote": 28657,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 20,
   "Weight": 5000,
-  "LotNumber": "262219",
-  "Packaging": "Panther",
-  "DecantNote": "28677",
-  "Status": "Allocated"
+  "LotNumberId": 202,
+  "PackagingId": 5,
+  "DecantNote": 28677,
+  "StatusId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 21,
   "Weight": 1250,
-  "LotNumber": "216019",
+  "LotNumberId": 27,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 21,
   "Weight": 1252,
-  "LotNumber": "216019",
+  "LotNumberId": 27,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 21,
   "Weight": 375,
-  "LotNumber": "216019",
-  "Packaging": "Panther",
-  "DecantNote": "28575",
-  "Status": "Stock"
+  "LotNumberId": 27,
+  "PackagingId": 5,
+  "DecantNote": 28575,
+  "StatusId": 2
  },
  {
   "WarehouseId": 9,
   "GradeId": 21,
   "Weight": 810,
-  "LotNumber": "232818",
-  "Packaging": "Plain",
-  "DecantNote": "28575",
-  "Status": "Stock"
+  "LotNumberId": 64,
+  "PackagingId": 6,
+  "DecantNote": 28575,
+  "StatusId": 2
  },
  {
   "WarehouseId": 9,
   "GradeId": 22,
   "Weight": 335,
-  "LotNumber": "202118",
+  "LotNumberId": 5,
   "BagNumber": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 23,
   "Weight": 1265,
-  "LotNumber": "216519",
+  "LotNumberId": 31,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 23,
   "Weight": 1255,
-  "LotNumber": "216519",
+  "LotNumberId": 31,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 23,
   "Weight": 196,
-  "LotNumber": "216519",
+  "LotNumberId": 31,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 23,
   "Weight": 1068,
-  "LotNumber": "248519",
+  "LotNumberId": 114,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 23,
   "Weight": 600,
-  "LotNumber": "216519",
-  "Packaging": "Plain",
-  "DecantNote": "27489",
-  "Status": "Stock"
+  "LotNumberId": 31,
+  "PackagingId": 6,
+  "DecantNote": 27489,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 24,
   "Weight": 1250,
-  "LotNumber": "2307190",
+  "LotNumberId": 61,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 24,
   "Weight": 1250,
-  "LotNumber": "230719",
+  "LotNumberId": 61,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 24,
   "Weight": 1409,
-  "LotNumber": "230719",
+  "LotNumberId": 61,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 24,
   "Weight": 1250,
-  "LotNumber": "230719",
+  "LotNumberId": 61,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 24,
   "Weight": 250,
-  "LotNumber": "200519",
-  "Packaging": "Performance",
-  "DecantNote": "27061",
-  "Status": "Stock"
+  "PackagingId": 6,
+  "DecantNote": 27061,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 24,
   "Weight": 5000,
-  "LotNumber": "230719",
-  "Packaging": "Panther",
-  "DecantNote": "28626",
-  "Status": "Panther"
+  "LotNumberId": 61,
+  "PackagingId": 5,
+  "DecantNote": 28626
  },
  {
   "WarehouseId": 5,
   "GradeId": 24,
   "Weight": 75,
-  "LotNumber": "230719",
-  "Packaging": "Panther",
-  "DecantNote": "27750",
-  "Status": "Panther"
+  "LotNumberId": 61,
+  "PackagingId": 5,
+  "DecantNote": 27750
  },
  {
   "WarehouseId": 1,
   "GradeId": 25,
   "Weight": 1253,
-  "LotNumber": "220819",
+  "LotNumberId": 40,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 25,
   "Weight": 1251,
-  "LotNumber": "220819",
+  "LotNumberId": 40,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 25,
   "Weight": 500,
-  "LotNumber": "220819",
-  "Packaging": "Panther",
-  "DecantNote": "27684",
-  "Status": "Allocated"
+  "LotNumberId": 40,
+  "PackagingId": 5,
+  "DecantNote": 27684,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 25,
   "Weight": 75,
-  "LotNumber": "220819",
-  "Packaging": "Panther",
-  "DecantNote": "27684",
-  "Status": "Stock"
+  "LotNumberId": 40,
+  "PackagingId": 5,
+  "DecantNote": 27684,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 26,
   "Weight": 1250,
-  "LotNumber": "255619",
+  "LotNumberId": 146,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 26,
   "Weight": 770,
-  "LotNumber": "255619",
+  "LotNumberId": 146,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 27,
   "Weight": 175,
-  "LotNumber": "234219",
-  "Packaging": "Panther",
-  "DecantNote": "27971",
-  "Status": "Allocated"
+  "LotNumberId": 70,
+  "PackagingId": 5,
+  "DecantNote": 27971,
+  "StatusId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 28,
   "Weight": 1269,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 150,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 151,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 152,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 153,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 21,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 22,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 23,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 24,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 25,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1266,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 100
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1265,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 101
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1269,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 102
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 103
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1266,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 104
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 105
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1266,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 106
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 107
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 108
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1256,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 109
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 110
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 111
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 112
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1263,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 113
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 114
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1268,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 116
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1258,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 117
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1269,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 118
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1250,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 119
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 120
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 121
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 122
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 123
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 124
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1257,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 125
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 126
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1263,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 128
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 129
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 130
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 131
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1265,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 132
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 133
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1263,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 134
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 135
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1265,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 136
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 137
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1266,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 138
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 139
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 140
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 141
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 142
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 143
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 144
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 145
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 146
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1263,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 147
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1268,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 148
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1268,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 149
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 26
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1258,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 27
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 28
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 29
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 30
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 31
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 32
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 33
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 34
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 35
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 36
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 37
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 38
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 39
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 40
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1256,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 41
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 42
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 43
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 44
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1263,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 45
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1251,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 46
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 47
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 48
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 49
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1265,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 50
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 51
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1266,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 52
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 53
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 54
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1258,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 55
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1256,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 56
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1258,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 57
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1263,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 58
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1263,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 59
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 60
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 61
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 62
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 63
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 64
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 65
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 66
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 67
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 68
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1258,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 69
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 70
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 71
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 72
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1266,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 73
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 74
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 75
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1263,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 76
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 77
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 78
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 79
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 80
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1258,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 81
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 82
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 83
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 84
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 85
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1148,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 86
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 658,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 87
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1265,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 88
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 89
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 90
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1262,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 91
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1257,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 92
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 93
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1264,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 94
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 95
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1259,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 96
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1260,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 97
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 98
  },
  {
   "WarehouseId": 3,
   "GradeId": 28,
   "Weight": 1258,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 99
  },
  {
   "WarehouseId": 4,
   "GradeId": 28,
   "Weight": 1263,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 115,
   "Notes": "IN E6"
  },
@@ -2301,7 +2298,7 @@
   "WarehouseId": 4,
   "GradeId": 28,
   "Weight": 1261,
-  "LotNumber": "259719",
+  "LotNumberId": 179,
   "BagNumber": 127,
   "Notes": "IN E6"
  },
@@ -2309,5886 +2306,5886 @@
   "WarehouseId": 1,
   "GradeId": 29,
   "Weight": 1258,
-  "LotNumber": "262419",
+  "LotNumberId": 204,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 29,
   "Weight": 1260,
-  "LotNumber": "262419",
+  "LotNumberId": 204,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 29,
   "Weight": 1259,
-  "LotNumber": "262419",
+  "LotNumberId": 204,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 29,
   "Weight": 1261,
-  "LotNumber": "262419",
+  "LotNumberId": 204,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 29,
   "Weight": 1250,
-  "LotNumber": "262419",
+  "LotNumberId": 204,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 29,
   "Weight": 1262,
-  "LotNumber": "262419",
+  "LotNumberId": 204,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 29,
   "Weight": 1261,
-  "LotNumber": "262419",
+  "LotNumberId": 204,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 29,
   "Weight": 1094,
-  "LotNumber": "262419",
+  "LotNumberId": 204,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 29,
   "Weight": 446,
-  "LotNumber": "262419",
+  "LotNumberId": 204,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 30,
   "Weight": 900,
-  "LotNumber": "200119",
+  "LotNumberId": 1,
   "BagNumber": 235,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 30,
   "Weight": 900,
-  "LotNumber": "200119",
+  "LotNumberId": 1,
   "BagNumber": 237,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 30,
   "Weight": 900,
-  "LotNumber": "200119",
+  "LotNumberId": 1,
   "BagNumber": 238,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 30,
   "Weight": 900,
-  "LotNumber": "200119",
+  "LotNumberId": 1,
   "BagNumber": 239,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 30,
   "Weight": 900,
-  "LotNumber": "200119",
+  "LotNumberId": 1,
   "BagNumber": 240,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 30,
   "Weight": 115,
-  "LotNumber": "200119",
+  "LotNumberId": 1,
   "BagNumber": 241,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 30,
   "Weight": 500,
-  "LotNumber": "200119",
-  "Packaging": "Panther",
-  "DecantNote": "27771",
-  "Status": "Stock"
+  "LotNumberId": 1,
+  "PackagingId": 5,
+  "DecantNote": 27771,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 31,
   "Weight": 600,
-  "LotNumber": "227719",
-  "Packaging": "Panther",
-  "DecantNote": "27770",
-  "Status": "Stock"
+  "LotNumberId": 55,
+  "PackagingId": 5,
+  "DecantNote": 27770,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 32,
   "Weight": 200,
-  "LotNumber": "216219",
-  "Packaging": "Panther",
-  "DecantNote": "27538",
-  "Status": "Stock"
+  "LotNumberId": 29,
+  "PackagingId": 5,
+  "DecantNote": 27538,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 33,
   "Weight": 1250,
-  "LotNumber": "231819",
+  "LotNumberId": 63,
   "BagNumber": 14
  },
  {
   "WarehouseId": 1,
   "GradeId": 33,
   "Weight": 1255,
-  "LotNumber": "231819",
+  "LotNumberId": 63,
   "BagNumber": 21
  },
  {
   "WarehouseId": 1,
   "GradeId": 33,
   "Weight": 1256,
-  "LotNumber": "231819",
+  "LotNumberId": 63,
   "BagNumber": 22
  },
  {
   "WarehouseId": 1,
   "GradeId": 33,
   "Weight": 1253,
-  "LotNumber": "231819",
+  "LotNumberId": 63,
   "BagNumber": 23
  },
  {
   "WarehouseId": 1,
   "GradeId": 33,
   "Weight": 1255,
-  "LotNumber": "231819",
+  "LotNumberId": 63,
   "BagNumber": 24
  },
  {
   "WarehouseId": 1,
   "GradeId": 33,
   "Weight": 1256,
-  "LotNumber": "231819",
+  "LotNumberId": 63,
   "BagNumber": 4
  },
  {
   "WarehouseId": 1,
   "GradeId": 33,
   "Weight": 1252,
-  "LotNumber": "231819",
+  "LotNumberId": 63,
   "BagNumber": 9
  },
  {
   "WarehouseId": 1,
   "GradeId": 33,
   "Weight": 375,
-  "LotNumber": "245519",
+  "LotNumberId": 96,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 33,
   "Weight": 725,
-  "LotNumber": "234119",
-  "Packaging": "Panther",
-  "DecantNote": "28142",
-  "Status": "Stock"
+  "LotNumberId": 69,
+  "PackagingId": 5,
+  "DecantNote": 28142,
+  "StatusId": 2
  },
  {
   "WarehouseId": 9,
   "GradeId": 33,
   "Weight": 2725,
-  "LotNumber": "245519",
-  "Packaging": "Panther",
-  "DecantNote": "28142",
-  "Status": "Allocated"
+  "LotNumberId": 96,
+  "PackagingId": 5,
+  "DecantNote": 28142,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 34,
   "Weight": 850,
-  "LotNumber": "243515",
-  "Packaging": "Panther",
-  "DecantNote": "25283",
-  "Status": "Stock"
+  "LotNumberId": 89,
+  "PackagingId": 5,
+  "DecantNote": 25283,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 35,
   "Weight": 493,
-  "LotNumber": "246319",
+  "LotNumberId": 100,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 35,
   "Weight": 375,
-  "LotNumber": "212119",
-  "Packaging": "Panther",
-  "DecantNote": "27358",
-  "Status": "Stock"
+  "LotNumberId": 18,
+  "PackagingId": 5,
+  "DecantNote": 27358,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 36,
   "Weight": 836,
-  "LotNumber": "214119",
+  "LotNumberId": 24,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "218319",
+  "LotNumberId": 33,
   "BagNumber": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "218319",
+  "LotNumberId": 33,
   "BagNumber": 5
  },
  {
   "WarehouseId": 1,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "218319",
+  "LotNumberId": 33,
   "BagNumber": 7
  },
  {
   "WarehouseId": 1,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "218319",
+  "LotNumberId": 33,
   "BagNumber": 8
  },
  {
   "WarehouseId": 1,
   "GradeId": 37,
   "Weight": 749,
-  "LotNumber": "218319",
+  "LotNumberId": 33,
   "BagNumber": 9
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 10
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 11
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 12
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 13
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 14
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 15
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 16
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 17
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 18
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 19
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 2
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 20
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 21
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 22
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 23
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 24
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 25
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 26
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 27
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 28
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 29
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 3
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 30
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 31
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 32
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 33
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 34
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 35
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 36
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 37
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 38
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 39
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 4
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 40
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 41
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 42
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 43
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 44
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 45
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 46
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 47
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 48
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 49
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 5
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 50
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 51
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 52
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 53
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 54
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 55
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 56
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 57
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 58
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 59
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 6
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 60
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 61
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 62
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 63
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 64
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 65
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 66
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 67
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 68
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 69
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 7
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 70
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 71
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 72
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 73
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 74
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 75
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 76
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 77
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 78
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 79
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 8
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 80
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 9
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "242718",
+  "LotNumberId": 87,
   "BagNumber": 42
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "247918",
+  "LotNumberId": 111,
   "BagNumber": 3
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "247918",
+  "LotNumberId": 111,
   "BagNumber": 5
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 10
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 11
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 13
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 16
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 19
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 2
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 20
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 21
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 22
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 23
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 25
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 26
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 28
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 29
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 3
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 30
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 31
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 32
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 33
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 34
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 35
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 36
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 37
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 39
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 40
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 41
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 42
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 43
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 44
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 45
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 46
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 47
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 48
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 49
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 5
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 52
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 53
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 6
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "248118",
+  "LotNumberId": 113,
   "BagNumber": 7
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 10
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 11
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 12
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 13
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 15
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 16
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 17
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 18
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 2
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 20
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 21
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 22
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 24
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 25
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 27
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 28
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 29
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 3
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 31
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 32
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 33
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 34
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 35
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 36
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 37
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 39
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 40
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 41
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 42
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 43
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 44
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 45
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 46
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 47
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 48
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 49
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 51
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 52
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 53,
-  "Packaging": "bulk bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 54
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 55
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 56
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 58
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 59
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 6
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 60
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 61
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 7
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 8
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "253418",
+  "LotNumberId": 134,
   "BagNumber": 9
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 10
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 11
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 12
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 13
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 14
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 15,
-  "Packaging": "bulk bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 16,
-  "Packaging": "bulk bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 17,
-  "Packaging": "bulk bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 18,
-  "Packaging": "bulk bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 19
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 2
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 20
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 21
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 22,
-  "Packaging": "bulk bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 23
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 24,
-  "Packaging": "bulk bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 25,
-  "Packaging": "bulk bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 26,
-  "Packaging": "bulk bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 27,
-  "Packaging": "bulk bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 28,
-  "Packaging": "bulk bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 29
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 3
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 30
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 31
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 32
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 33
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 34
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 35
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 36
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 37
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 38
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 39
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 4
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 40
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 41
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 42
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 43
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 44
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 45
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 46
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 49
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 5
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 50
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 51
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 52
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 53
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 54
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 56
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 57
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 58
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 59
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 6
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 60
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 61
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 7
  },
  {
   "WarehouseId": 2,
   "GradeId": 37,
   "Weight": 1250,
-  "LotNumber": "263918",
+  "LotNumberId": 213,
   "BagNumber": 8
  },
  {
   "WarehouseId": 4,
   "GradeId": 37,
   "Weight": 1038,
-  "LotNumber": "200619",
+  "LotNumberId": 3,
   "BagNumber": 81
  },
  {
   "WarehouseId": 4,
   "GradeId": 37,
   "Weight": 1248,
-  "LotNumber": "212719",
+  "LotNumberId": 19,
   "BagNumber": 3
  },
  {
   "WarehouseId": 4,
   "GradeId": 37,
   "Weight": 1188,
-  "LotNumber": "212719",
+  "LotNumberId": 19,
   "BagNumber": 4
  },
  {
   "WarehouseId": 4,
   "GradeId": 37,
   "Weight": 932,
-  "LotNumber": "214619",
+  "LotNumberId": 25,
   "BagNumber": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 37,
   "Weight": 628,
-  "LotNumber": "214619",
+  "LotNumberId": 25,
   "BagNumber": 2
  },
  {
   "WarehouseId": 4,
   "GradeId": 37,
   "Weight": 622,
-  "LotNumber": "214619",
+  "LotNumberId": 25,
   "BagNumber": 3
  },
  {
   "WarehouseId": 4,
   "GradeId": 37,
   "Weight": 937,
-  "LotNumber": "215919",
+  "LotNumberId": 26,
   "BagNumber": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 37,
   "Weight": 1248,
-  "LotNumber": "219119",
+  "LotNumberId": 35,
   "BagNumber": 8
  },
  {
   "WarehouseId": 4,
   "GradeId": 37,
   "Weight": 1000,
-  "LotNumber": "243119"
+  "LotNumberId": 88
  },
  {
   "WarehouseId": 1,
   "GradeId": 38,
   "Weight": 1216,
-  "LotNumber": "247119",
+  "LotNumberId": 107,
   "BagNumber": 80,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 38,
   "Weight": 1215,
-  "LotNumber": "247119",
+  "LotNumberId": 107,
   "BagNumber": 81,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "240019",
+  "LotNumberId": 80,
   "BagNumber": 31
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 1,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 10,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 11,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 12,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 13,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 14,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 184,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 15,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 2,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 3,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 4,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 5,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 6,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 7,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 8,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 38,
   "Weight": 750,
-  "LotNumber": "262019",
+  "LotNumberId": 200,
   "BagNumber": 9,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 9,
   "GradeId": 39,
   "Weight": 1300,
-  "LotNumber": "249019"
+  "LotNumberId": 115
  },
  {
   "WarehouseId": 1,
   "GradeId": 40,
   "Weight": 492,
-  "LotNumber": "233319",
+  "LotNumberId": 66,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 40,
   "Weight": 1250,
-  "LotNumber": "233319",
+  "LotNumberId": 66,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 40,
   "Weight": 1250,
-  "LotNumber": "233319",
+  "LotNumberId": 66,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 40,
   "Weight": 275,
-  "LotNumber": "233319",
-  "Packaging": "Performance",
-  "DecantNote": "27879",
-  "Status": "Stock"
+  "LotNumberId": 66,
+  "PackagingId": 6,
+  "DecantNote": 27879,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 40,
   "Weight": 350,
-  "LotNumber": "240919",
-  "Packaging": "Performance",
-  "DecantNote": "28159",
-  "Status": "Stock"
+  "LotNumberId": 85,
+  "PackagingId": 6,
+  "DecantNote": 28159,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 41,
   "Weight": 1250,
-  "LotNumber": "223119",
+  "LotNumberId": 42,
   "BagNumber": 11
  },
  {
   "WarehouseId": 1,
   "GradeId": 41,
   "Weight": 767,
-  "LotNumber": "223119",
+  "LotNumberId": 42,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 41,
   "Weight": 1250,
-  "LotNumber": "216819",
-  "Packaging": "Panther",
-  "DecantNote": "28188",
-  "Status": "Allocated"
+  "LotNumberId": 32,
+  "PackagingId": 5,
+  "DecantNote": 28188,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 42,
   "Weight": 300,
-  "LotNumber": "246419",
-  "Packaging": "Panther",
-  "DecantNote": "28610",
-  "Status": "Stock"
+  "LotNumberId": 101,
+  "PackagingId": 5,
+  "DecantNote": 28610,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 43,
   "Weight": 1250,
-  "LotNumber": "259219",
+  "LotNumberId": 174,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 43,
   "Weight": 1250,
-  "LotNumber": "259219",
+  "LotNumberId": 174,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 43,
   "Weight": 1250,
-  "LotNumber": "259219",
+  "LotNumberId": 174,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 43,
   "Weight": 1250,
-  "LotNumber": "259219",
+  "LotNumberId": 174,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 43,
   "Weight": 500,
-  "LotNumber": "259219",
-  "Packaging": "Panther",
-  "DecantNote": "28717",
-  "Status": "Allocated"
+  "LotNumberId": 174,
+  "PackagingId": 5,
+  "DecantNote": 28717,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 43,
   "Weight": 100,
-  "LotNumber": "259219",
-  "Packaging": "Panther",
-  "DecantNote": "28609",
-  "Status": "Stock"
+  "LotNumberId": 174,
+  "PackagingId": 5,
+  "DecantNote": 28609,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 377,
-  "LotNumber": "252419",
+  "LotNumberId": 128,
   "BagNumber": 18,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 201,
-  "LotNumber": "255319",
+  "LotNumberId": 144,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "260619",
+  "LotNumberId": 188,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "260619",
+  "LotNumberId": 188,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "260619",
+  "LotNumberId": 188,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "260619",
+  "LotNumberId": 188,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1257,
-  "LotNumber": "260619",
+  "LotNumberId": 188,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 532,
-  "LotNumber": "260619",
+  "LotNumberId": 188,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1252,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 13,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 14,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 15,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 18,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 19,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 20,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 21,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 22,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 597,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 23,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "262819",
+  "LotNumberId": 209,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 44,
   "Weight": 1250,
-  "LotNumber": "227519",
-  "Packaging": "Panther",
-  "DecantNote": "28438",
-  "Status": "Stock"
+  "LotNumberId": 54,
+  "PackagingId": 5,
+  "DecantNote": 28438,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 44,
   "Weight": 125,
-  "LotNumber": "259119",
-  "Packaging": "Panther",
-  "DecantNote": "28588",
-  "Status": "Stock"
+  "LotNumberId": 173,
+  "PackagingId": 5,
+  "DecantNote": 28588,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 13,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 14,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 15,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 18,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 19,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 20,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 21,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 22,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1174,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 23,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 1250,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 45,
   "Weight": 716,
-  "LotNumber": "261819",
+  "LotNumberId": 198,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 45,
   "Weight": 500,
-  "LotNumber": "252619",
-  "Packaging": "Panther",
-  "DecantNote": "28656",
-  "Status": "Allocated"
+  "LotNumberId": 130,
+  "PackagingId": 5,
+  "DecantNote": 28656,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 45,
   "Weight": 150,
-  "LotNumber": "252619",
-  "Packaging": "Panther",
-  "DecantNote": "28554",
-  "Status": "Stock"
+  "LotNumberId": 130,
+  "PackagingId": 5,
+  "DecantNote": 28554,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 45,
   "Weight": 5000,
-  "LotNumber": "258619",
-  "Packaging": "Panther",
-  "DecantNote": "28432",
-  "Status": "Allocated"
+  "LotNumberId": 170,
+  "PackagingId": 5,
+  "DecantNote": 28432,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 45,
   "Weight": 5000,
-  "LotNumber": "261819",
-  "Packaging": "Panther",
-  "DecantNote": "28432",
-  "Status": "Allocated"
+  "LotNumberId": 198,
+  "PackagingId": 5,
+  "DecantNote": 28432,
+  "StatusId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 46,
   "Weight": 1250,
-  "LotNumber": "250519",
+  "LotNumberId": 123,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 47,
   "Weight": 1250,
-  "LotNumber": "247719",
+  "LotNumberId": 109,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 47,
   "Weight": 1250,
-  "LotNumber": "247719",
+  "LotNumberId": 109,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 47,
   "Weight": 459,
-  "LotNumber": "247719",
+  "LotNumberId": 109,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 47,
   "Weight": 6250,
-  "LotNumber": "259619",
-  "Packaging": "Panther",
-  "DecantNote": "28654",
-  "Status": "Allocated"
+  "LotNumberId": 178,
+  "PackagingId": 5,
+  "DecantNote": 28654,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 47,
   "Weight": 6250,
-  "LotNumber": "261719",
-  "Packaging": "Panther",
-  "DecantNote": "28654",
-  "Status": "Allocated"
+  "LotNumberId": 197,
+  "PackagingId": 5,
+  "DecantNote": 28654,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 47,
   "Weight": 575,
-  "LotNumber": "261719",
-  "Packaging": "Panther",
-  "DecantNote": "28654",
-  "Status": "Stock"
+  "LotNumberId": 197,
+  "PackagingId": 5,
+  "DecantNote": 28654,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 48,
   "Weight": 275,
-  "LotNumber": "253819",
-  "Packaging": "Panther",
-  "DecantNote": "28520",
-  "Status": "Allocated"
+  "LotNumberId": 138,
+  "PackagingId": 5,
+  "DecantNote": 28520,
+  "StatusId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 49,
   "Weight": 1250,
-  "LotNumber": "250119",
+  "LotNumberId": 120,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 49,
   "Weight": 1250,
-  "LotNumber": "250119",
+  "LotNumberId": 120,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 50,
   "Weight": 225,
-  "LotNumber": "254419",
-  "Packaging": "Panther",
-  "DecantNote": "28473",
-  "Status": "Stock"
+  "LotNumberId": 141,
+  "PackagingId": 5,
+  "DecantNote": 28473,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 51,
   "Weight": 1250,
-  "LotNumber": "234819",
-  "Packaging": "Panther",
-  "DecantNote": "28661",
-  "Status": "Allocated"
+  "LotNumberId": 72,
+  "PackagingId": 5,
+  "DecantNote": 28661,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 51,
   "Weight": 9900,
-  "LotNumber": "261219",
-  "Packaging": "Panther",
-  "DecantNote": "28661",
-  "Status": "Allocated"
+  "LotNumberId": 193,
+  "PackagingId": 5,
+  "DecantNote": 28661,
+  "StatusId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 52,
   "Weight": 1250,
-  "LotNumber": "216119",
+  "LotNumberId": 28,
   "BagNumber": 25
  },
  {
   "WarehouseId": 4,
   "GradeId": 52,
   "Weight": 300,
-  "LotNumber": "216119",
+  "LotNumberId": 28,
   "BagNumber": 26
  },
  {
   "WarehouseId": 4,
   "GradeId": 52,
   "Weight": 755,
-  "LotNumber": "216119",
+  "LotNumberId": 28,
   "BagNumber": 28
  },
  {
   "WarehouseId": 1,
   "GradeId": 53,
   "Weight": 1250,
-  "LotNumber": "262119",
+  "LotNumberId": 201,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1241,
-  "LotNumber": "219819",
+  "LotNumberId": 37,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1225,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1219,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1222,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1218,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1223,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 13,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1228,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 14,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 441,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 15,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1226,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1201,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1225,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1226,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 54,
   "Weight": 1220,
-  "LotNumber": "228519",
+  "LotNumberId": 57,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 55,
   "Weight": 886,
-  "LotNumber": "257419",
+  "LotNumberId": 162,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 55,
   "Weight": 1175,
-  "LotNumber": "257419",
+  "LotNumberId": 162,
   "BagNumber": 4
  },
  {
   "WarehouseId": 1,
   "GradeId": 56,
   "Weight": 1239,
-  "LotNumber": "259519",
+  "LotNumberId": 177,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 56,
   "Weight": 1238,
-  "LotNumber": "259519",
+  "LotNumberId": 177,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 56,
   "Weight": 75,
-  "LotNumber": "262718",
-  "Packaging": "Panther",
-  "DecantNote": "27635",
-  "Status": "Stock"
+  "LotNumberId": 207,
+  "PackagingId": 5,
+  "DecantNote": 27635,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 57,
   "Weight": 44,
-  "LotNumber": "235319",
+  "LotNumberId": 73,
   "BagNumber": 10,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 57,
   "Weight": 4500,
-  "LotNumber": "235319",
+  "LotNumberId": 73,
   "BagNumber": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 58,
   "Weight": 500,
-  "LotNumber": "225919",
+  "LotNumberId": 48,
   "BagNumber": 41,
-  "Packaging": "28452"
+  "DecantNote": 28452
  },
  {
   "WarehouseId": 5,
   "GradeId": 58,
   "Weight": 500,
-  "LotNumber": "225919",
+  "LotNumberId": 48,
   "BagNumber": 42,
-  "Packaging": "28452"
+  "DecantNote": 28452
  },
  {
   "WarehouseId": 5,
   "GradeId": 58,
   "Weight": 500,
-  "LotNumber": "225919",
+  "LotNumberId": 48,
   "BagNumber": 43,
-  "Packaging": "28452"
+  "DecantNote": 28452
  },
  {
   "WarehouseId": 5,
   "GradeId": 58,
   "Weight": 500,
-  "LotNumber": "225919",
+  "LotNumberId": 48,
   "BagNumber": 44,
-  "Packaging": "28452"
+  "DecantNote": 28452
  },
  {
   "WarehouseId": 5,
   "GradeId": 58,
   "Weight": 500,
-  "LotNumber": "225919",
+  "LotNumberId": 48,
   "BagNumber": 45,
-  "Packaging": "28452"
+  "DecantNote": 28452
  },
  {
   "WarehouseId": 5,
   "GradeId": 58,
   "Weight": 500,
-  "LotNumber": "225919",
+  "LotNumberId": 48,
   "BagNumber": 46,
-  "Packaging": "28452"
+  "DecantNote": 28452
  },
  {
   "WarehouseId": 5,
   "GradeId": 58,
   "Weight": 500,
-  "LotNumber": "225919",
+  "LotNumberId": 48,
   "BagNumber": 51,
-  "Packaging": "28452"
+  "DecantNote": 28452
  },
  {
   "WarehouseId": 5,
   "GradeId": 58,
   "Weight": 500,
-  "LotNumber": "225919",
+  "LotNumberId": 48,
   "BagNumber": 52,
-  "Packaging": "28452"
+  "DecantNote": 28452
  },
  {
   "WarehouseId": 5,
   "GradeId": 58,
   "Weight": 500,
-  "LotNumber": "225919",
+  "LotNumberId": 48,
   "BagNumber": 53,
-  "Packaging": "28452"
+  "DecantNote": 28452
  },
  {
   "WarehouseId": 5,
   "GradeId": 58,
   "Weight": 500,
-  "LotNumber": "225919",
+  "LotNumberId": 48,
   "BagNumber": 54,
-  "Packaging": "28452"
+  "DecantNote": 28452
  },
  {
   "WarehouseId": 5,
   "GradeId": 59,
   "Weight": 573,
-  "LotNumber": "201219G"
+  "LotNumberId": 4
  },
  {
   "WarehouseId": 5,
   "GradeId": 59,
   "Weight": 610,
-  "LotNumber": "210119G"
+  "LotNumberId": 13
  },
  {
   "WarehouseId": 5,
   "GradeId": 59,
   "Weight": 1248,
-  "LotNumber": "253218G"
+  "LotNumberId": 133
  },
  {
   "WarehouseId": 1,
   "GradeId": 60,
   "Weight": 1250,
-  "LotNumber": "249619",
+  "LotNumberId": 117,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 60,
   "Weight": 225,
-  "LotNumber": "249619",
+  "LotNumberId": 117,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 61,
   "Weight": 67,
-  "LotNumber": "249719",
+  "LotNumberId": 118,
   "BagNumber": 2
  },
  {
   "WarehouseId": 4,
   "GradeId": 61,
   "Weight": 968,
-  "LotNumber": "249719",
+  "LotNumberId": 118,
   "BagNumber": 3
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 14,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 15,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 18,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 19,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 20,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 21,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 22,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 23,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1258,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 24,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 25,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 26,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 27,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1260,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 28,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 29,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 30,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 31,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 32,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 33,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 34,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1250,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 35,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 62,
   "Weight": 1134,
-  "LotNumber": "260219",
+  "LotNumberId": 184,
   "BagNumber": 36,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 13,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 14,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 15,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 18,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 19,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 20,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 21,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 22,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 62,
   "Weight": 1000,
-  "LotNumber": "262519",
+  "LotNumberId": 205,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 1
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 10
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 11
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 12
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 13
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 14
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 15
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 16
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 17
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 18
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 19
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 2
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 20
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 3
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 4
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 5
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 6
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 7
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 8
  },
  {
   "WarehouseId": 3,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 9
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "212019",
+  "LotNumberId": 17,
   "BagNumber": 100
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "212019",
+  "LotNumberId": 17,
   "BagNumber": 27
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "212019",
+  "LotNumberId": 17,
   "BagNumber": 29
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "212019",
+  "LotNumberId": 17,
   "BagNumber": 92
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "212019",
+  "LotNumberId": 17,
   "BagNumber": 93
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "212019",
+  "LotNumberId": 17,
   "BagNumber": 94
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "212019",
+  "LotNumberId": 17,
   "BagNumber": 95
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "212019",
+  "LotNumberId": 17,
   "BagNumber": 96
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "212019",
+  "LotNumberId": 17,
   "BagNumber": 97
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "212019",
+  "LotNumberId": 17,
   "BagNumber": 98
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 700,
-  "LotNumber": "212019",
+  "LotNumberId": 17,
   "BagNumber": 99
  },
  {
   "WarehouseId": 5,
   "GradeId": 63,
   "Weight": 379,
-  "LotNumber": "260719",
+  "LotNumberId": 189,
   "BagNumber": 21,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 1,
   "GradeId": 64,
   "Weight": 1000,
-  "LotNumber": "260119",
+  "LotNumberId": 183,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 64,
   "Weight": 140,
-  "LotNumber": "260119",
+  "LotNumberId": 183,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1048,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1058,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1060,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1054,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 675,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 13,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1058,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 14,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1061,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 15,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1060,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1053,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1052,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 18,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1053,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 19,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1060,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1051,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 20,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1061,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 21,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1058,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 22,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1069,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 24,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1061,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 25,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1060,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 26,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1059,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 27,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1060,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 28,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1054,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 29,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1060,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1053,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 30,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 997,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 31,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1052,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 32,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1060,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 33,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1058,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 34,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1057,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 36,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1061,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 38,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1059,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 39,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1060,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1061,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 40,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1059,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 41,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1052,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 42,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1052,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 43,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1051,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 44,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1050,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 45,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 680,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 46,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1061,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1060,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1049,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 65,
   "Weight": 1061,
-  "LotNumber": "259019",
+  "LotNumberId": 172,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 65,
   "Weight": 10000,
-  "LotNumber": "255719",
-  "Packaging": "Panther",
-  "DecantNote": "28465",
-  "Status": "Allocated"
+  "LotNumberId": 147,
+  "PackagingId": 5,
+  "DecantNote": 28465,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 65,
   "Weight": 150,
-  "LotNumber": "255719",
-  "Packaging": "Panther",
-  "DecantNote": "28686",
-  "Status": "Allocated"
+  "LotNumberId": 147,
+  "PackagingId": 5,
+  "DecantNote": 28686,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 65,
   "Weight": 250,
-  "LotNumber": "255719",
-  "Packaging": "Panther",
-  "DecantNote": "28686",
-  "Status": "Allocated"
+  "LotNumberId": 147,
+  "PackagingId": 5,
+  "DecantNote": 28686,
+  "StatusId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 66,
   "Weight": 1212,
-  "LotNumber": "209919",
+  "LotNumberId": 11,
   "BagNumber": 8
  },
  {
   "WarehouseId": 4,
   "GradeId": 66,
   "Weight": 1194,
-  "LotNumber": "223217",
+  "LotNumberId": 43,
   "BagNumber": 2
  },
  {
   "WarehouseId": 4,
   "GradeId": 66,
   "Weight": 1243,
-  "LotNumber": "223217",
+  "LotNumberId": 43,
   "BagNumber": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 67,
   "Weight": 925,
-  "LotNumber": "241318",
-  "Packaging": "Panther",
-  "DecantNote": "26013",
-  "Status": "Allocated"
+  "LotNumberId": 86,
+  "PackagingId": 5,
+  "DecantNote": 26013,
+  "StatusId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 68,
   "Weight": 1114,
-  "LotNumber": "247219",
+  "LotNumberId": 108,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 68,
   "Weight": 1097,
-  "LotNumber": "257119",
+  "LotNumberId": 159,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 68,
   "Weight": 1110,
-  "LotNumber": "257119",
+  "LotNumberId": 159,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 68,
   "Weight": 1110,
-  "LotNumber": "257119",
+  "LotNumberId": 159,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 68,
   "Weight": 1109,
-  "LotNumber": "257119",
+  "LotNumberId": 159,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 68,
   "Weight": 1112,
-  "LotNumber": "257119",
+  "LotNumberId": 159,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 68,
   "Weight": 1108,
-  "LotNumber": "257119",
+  "LotNumberId": 159,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 68,
   "Weight": 1109,
-  "LotNumber": "257119",
+  "LotNumberId": 159,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 68,
   "Weight": 1108,
-  "LotNumber": "257119",
+  "LotNumberId": 159,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 68,
   "Weight": 983,
-  "LotNumber": "257119",
+  "LotNumberId": 159,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 69,
   "Weight": 552,
-  "LotNumber": "257019",
+  "LotNumberId": 157,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 70,
   "Weight": 1256,
-  "LotNumber": "213119",
+  "LotNumberId": 21,
   "BagNumber": 64,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 70,
   "Weight": 354,
-  "LotNumber": "261319",
+  "LotNumberId": 194,
   "BagNumber": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 71,
   "Weight": 1256,
-  "LotNumber": "255119",
+  "LotNumberId": 143,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 71,
   "Weight": 1220,
-  "LotNumber": "255119",
+  "LotNumberId": 143,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 71,
   "Weight": 1224,
-  "LotNumber": "255119",
+  "LotNumberId": 143,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 71,
   "Weight": 1223,
-  "LotNumber": "255119",
+  "LotNumberId": 143,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 71,
   "Weight": 1224,
-  "LotNumber": "255119",
+  "LotNumberId": 143,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 71,
   "Weight": 175,
-  "LotNumber": "251219",
-  "Packaging": "Plain",
-  "DecantNote": "28472",
-  "Status": "Stock"
+  "LotNumberId": 125,
+  "PackagingId": 6,
+  "DecantNote": 28472,
+  "StatusId": 2
  },
  {
   "WarehouseId": 9,
   "GradeId": 71,
   "Weight": 325,
-  "LotNumber": "220910"
+  "LotNumberId": 41
  },
  {
   "WarehouseId": 1,
   "GradeId": 72,
   "Weight": 419,
-  "LotNumber": "239519",
+  "LotNumberId": 77,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 72,
   "Weight": 725,
-  "LotNumber": "239519",
-  "Packaging": "Panther",
-  "DecantNote": "28122",
-  "Status": "Stock"
+  "LotNumberId": 77,
+  "PackagingId": 5,
+  "DecantNote": 28122,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 73,
   "Weight": 1250,
-  "LotNumber": "262919",
+  "LotNumberId": 210,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 73,
   "Weight": 1250,
-  "LotNumber": "262919",
+  "LotNumberId": 210,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 73,
   "Weight": 1250,
-  "LotNumber": "262919",
+  "LotNumberId": 210,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 73,
   "Weight": 1250,
-  "LotNumber": "262919",
+  "LotNumberId": 210,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 73,
   "Weight": 452,
-  "LotNumber": "262919",
+  "LotNumberId": 210,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 73,
   "Weight": 2500,
-  "LotNumber": "260319",
-  "Packaging": "Panther",
-  "DecantNote": "28668",
-  "Status": "Allocated"
+  "LotNumberId": 185,
+  "PackagingId": 5,
+  "DecantNote": 28668,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 73,
   "Weight": 1100,
-  "LotNumber": "260319",
-  "Packaging": "Panther",
-  "DecantNote": "28660",
-  "Status": "Stock"
+  "LotNumberId": 185,
+  "PackagingId": 5,
+  "DecantNote": 28660,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 74,
   "Weight": 542,
-  "LotNumber": "267416",
+  "LotNumberId": 214,
   "BagNumber": 19,
-  "Packaging": "Octabin"
+  "PackagingId": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 74,
   "Weight": 99,
-  "LotNumber": "260617",
-  "Packaging": "Plain",
-  "DecantNote": "27121",
-  "Status": "Allocated"
+  "LotNumberId": 187,
+  "PackagingId": 6,
+  "DecantNote": 27121,
+  "StatusId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 75,
   "Weight": 1208,
-  "LotNumber": "244319",
+  "LotNumberId": 94,
   "BagNumber": 51
  },
  {
   "WarehouseId": 1,
   "GradeId": 75,
   "Weight": 674,
-  "LotNumber": "244319",
+  "LotNumberId": 94,
   "BagNumber": 52
  },
  {
   "WarehouseId": 1,
   "GradeId": 75,
   "Weight": 1208,
-  "LotNumber": "244319",
+  "LotNumberId": 94,
   "BagNumber": 53
  },
  {
   "WarehouseId": 1,
   "GradeId": 75,
   "Weight": 1208,
-  "LotNumber": "244319",
+  "LotNumberId": 94,
   "BagNumber": 54
  },
  {
   "WarehouseId": 1,
   "GradeId": 75,
   "Weight": 1203,
-  "LotNumber": "244319",
+  "LotNumberId": 94,
   "BagNumber": 55
  },
  {
   "WarehouseId": 1,
   "GradeId": 75,
   "Weight": 1235,
-  "LotNumber": "256419",
+  "LotNumberId": 152,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 75,
   "Weight": 618,
-  "LotNumber": "256419",
+  "LotNumberId": 152,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 75,
   "Weight": 500,
-  "LotNumber": "256419",
-  "Packaging": "Panther",
-  "DecantNote": "28582",
-  "Status": "Stock"
+  "LotNumberId": 152,
+  "PackagingId": 5,
+  "DecantNote": 28582,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 76,
   "Weight": 1207,
-  "LotNumber": "224518",
+  "LotNumberId": 46,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 76,
   "Weight": 1210,
-  "LotNumber": "224518",
+  "LotNumberId": 46,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 76,
   "Weight": 1211,
-  "LotNumber": "224518",
+  "LotNumberId": 46,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 76,
   "Weight": 1250,
-  "LotNumber": "224518",
+  "LotNumberId": 46,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 76,
   "Weight": 249,
-  "LotNumber": "224518",
+  "LotNumberId": 46,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 77,
   "Weight": 1215,
-  "LotNumber": "240519",
+  "LotNumberId": 81,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 77,
   "Weight": 1210,
-  "LotNumber": "246519",
+  "LotNumberId": 102,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 77,
   "Weight": 1725,
-  "LotNumber": "205919",
-  "Packaging": "Panther",
-  "DecantNote": "24870",
-  "Status": "Stock"
+  "LotNumberId": 7,
+  "PackagingId": 5,
+  "DecantNote": 24870,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 77,
   "Weight": 4650,
-  "LotNumber": "210019",
-  "Packaging": "Panther",
-  "DecantNote": "24870",
-  "Status": "Stock"
+  "LotNumberId": 12,
+  "PackagingId": 5,
+  "DecantNote": 24870,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 77,
   "Weight": 225,
-  "LotNumber": "246519",
-  "Packaging": "Panther",
-  "DecantNote": "24870",
-  "Status": "Stock"
+  "LotNumberId": 102,
+  "PackagingId": 5,
+  "DecantNote": 24870,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 78,
   "Weight": 1209,
-  "LotNumber": "246819",
+  "LotNumberId": 106,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 78,
   "Weight": 1211,
-  "LotNumber": "246819",
+  "LotNumberId": 106,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 78,
   "Weight": 711,
-  "LotNumber": "246819",
+  "LotNumberId": 106,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 78,
   "Weight": 1219,
-  "LotNumber": "246819",
+  "LotNumberId": 106,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 78,
   "Weight": 1215,
-  "LotNumber": "246819",
+  "LotNumberId": 106,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 78,
   "Weight": 815,
-  "LotNumber": "246819",
+  "LotNumberId": 106,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 79,
   "Weight": 1093,
-  "LotNumber": "210519",
+  "LotNumberId": 14,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 80,
   "Weight": 1414,
-  "LotNumber": "256319",
+  "LotNumberId": 151,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 80,
   "Weight": 1250,
-  "LotNumber": "263119",
+  "LotNumberId": 211,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 80,
   "Weight": 1345,
-  "LotNumber": "263119",
+  "LotNumberId": 211,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 80,
   "Weight": 175,
-  "LotNumber": "226919",
-  "Packaging": "Plain",
-  "DecantNote": "28051",
-  "Status": "Stock"
+  "LotNumberId": 50,
+  "PackagingId": 6,
+  "DecantNote": 28051,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 81,
   "Weight": 600,
-  "LotNumber": "260019",
-  "Packaging": "Panther",
-  "DecantNote": "28683",
-  "Status": "Stock"
+  "LotNumberId": 182,
+  "PackagingId": 5,
+  "DecantNote": 28683,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 82,
   "Weight": 450,
-  "LotNumber": "219419",
-  "Packaging": "Panther",
-  "DecantNote": "27540",
-  "Status": "Stock"
+  "LotNumberId": 36,
+  "PackagingId": 5,
+  "DecantNote": 27540,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 83,
   "Weight": 1250,
-  "LotNumber": "256719",
+  "LotNumberId": 153,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 83,
   "Weight": 1250,
-  "LotNumber": "256719",
+  "LotNumberId": 153,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 83,
   "Weight": 1250,
-  "LotNumber": "256719",
+  "LotNumberId": 153,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 83,
   "Weight": 1250,
-  "LotNumber": "256719",
+  "LotNumberId": 153,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 83,
   "Weight": 832,
-  "LotNumber": "256719",
+  "LotNumberId": 153,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 83,
   "Weight": 575,
-  "LotNumber": "249419",
-  "Packaging": "Panther",
-  "DecantNote": "28400",
-  "Status": "Stock"
+  "LotNumberId": 116,
+  "PackagingId": 5,
+  "DecantNote": 28400,
+  "StatusId": 2
  },
  {
   "WarehouseId": 9,
   "GradeId": 84,
   "Weight": 1100,
-  "LotNumber": "213117",
-  "Packaging": "Panther",
-  "DecantNote": "28400",
-  "Status": "Allocated"
+  "LotNumberId": 20,
+  "PackagingId": 5,
+  "DecantNote": 28400,
+  "StatusId": 1
  },
  {
   "WarehouseId": 9,
   "GradeId": 84,
   "Weight": 142,
-  "LotNumber": "213117",
-  "Packaging": "Plain",
-  "DecantNote": "28400",
-  "Status": "Allocated"
+  "LotNumberId": 20,
+  "PackagingId": 6,
+  "DecantNote": 28400,
+  "StatusId": 1
  },
  {
   "WarehouseId": 9,
   "GradeId": 85,
   "Weight": 197,
-  "LotNumber": "227111",
-  "Packaging": "Panther",
-  "DecantNote": "28400",
-  "Status": "Stock"
+  "LotNumberId": 51,
+  "PackagingId": 5,
+  "DecantNote": 28400,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 86,
   "Weight": 270,
-  "LotNumber": "243719",
+  "LotNumberId": 90,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 86,
   "Weight": 685,
-  "LotNumber": "251619",
+  "LotNumberId": 126,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 86,
   "Weight": 1250,
-  "LotNumber": "256819",
+  "LotNumberId": 154,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 86,
   "Weight": 1256,
-  "LotNumber": "256819",
+  "LotNumberId": 154,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 86,
   "Weight": 1250,
-  "LotNumber": "256819",
+  "LotNumberId": 154,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 86,
   "Weight": 1250,
-  "LotNumber": "256819",
+  "LotNumberId": 154,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 86,
   "Weight": 1148,
-  "LotNumber": "256819",
+  "LotNumberId": 154,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 87,
   "Weight": 3750,
-  "LotNumber": "238819",
-  "Packaging": "Panther",
-  "DecantNote": "28553",
-  "Status": "Allocated"
+  "LotNumberId": 75,
+  "PackagingId": 5,
+  "DecantNote": 28553,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 87,
   "Weight": 600,
-  "LotNumber": "238819",
-  "Packaging": "Panther",
-  "DecantNote": "28061",
-  "Status": "Stock"
+  "LotNumberId": 75,
+  "PackagingId": 5,
+  "DecantNote": 28061,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 88,
   "Weight": 203,
-  "LotNumber": "210619",
+  "LotNumberId": 15,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 88,
   "Weight": 214,
-  "LotNumber": "210619",
+  "LotNumberId": 15,
   "BagNumber": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 88,
   "Weight": 502,
-  "LotNumber": "210619",
+  "LotNumberId": 15,
   "BagNumber": 3
  },
  {
   "WarehouseId": 5,
   "GradeId": 88,
   "Weight": 375,
-  "LotNumber": "233919",
-  "Packaging": "Panther",
-  "DecantNote": "27893",
-  "Status": "Stock"
+  "LotNumberId": 68,
+  "PackagingId": 5,
+  "DecantNote": 27893,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 22,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 23,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 24,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 25,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 26,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 27,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 28,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 29,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 30,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 31,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 32,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 33,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 34,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 35,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 36,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 37,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 38,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 39,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 40,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 41,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 42,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 1000,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 43,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 89,
   "Weight": 916,
-  "LotNumber": "258919",
+  "LotNumberId": 171,
   "BagNumber": 44,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 90,
   "Weight": 150,
-  "LotNumber": "240619",
+  "LotNumberId": 82,
   "BagNumber": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 90,
   "Weight": 188,
-  "LotNumber": "240619",
+  "LotNumberId": 82,
   "BagNumber": 2
  },
  {
   "WarehouseId": 4,
   "GradeId": 90,
   "Weight": 500,
-  "LotNumber": "246619",
+  "LotNumberId": 103,
   "BagNumber": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 90,
   "Weight": 441,
-  "LotNumber": "258319",
+  "LotNumberId": 167,
   "BagNumber": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 90,
   "Weight": 76,
-  "LotNumber": "258319",
+  "LotNumberId": 167,
   "BagNumber": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 90,
   "Weight": 100,
-  "LotNumber": "226819",
-  "Packaging": "Plain",
-  "DecantNote": "28156",
-  "Status": "Allocated"
+  "LotNumberId": 49,
+  "PackagingId": 6,
+  "DecantNote": 28156,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 90,
   "Weight": 500,
-  "LotNumber": "226819",
-  "Packaging": "Plain",
-  "DecantNote": "27690",
-  "Status": "Stock"
+  "LotNumberId": 49,
+  "PackagingId": 6,
+  "DecantNote": 27690,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 91,
   "Weight": 191,
-  "LotNumber": "208119",
+  "LotNumberId": 8,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 92,
   "Weight": 5,
-  "LotNumber": "236319",
+  "LotNumberId": 74,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 93,
   "Weight": 1250,
-  "LotNumber": "261419",
+  "LotNumberId": 195,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 93,
   "Weight": 1250,
-  "LotNumber": "261419",
+  "LotNumberId": 195,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 93,
   "Weight": 531,
-  "LotNumber": "261419",
+  "LotNumberId": 195,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 93,
   "Weight": 22500,
-  "LotNumber": "261419",
-  "Packaging": "Panther",
-  "DecantNote": "28645",
-  "Status": "Allocated"
+  "LotNumberId": 195,
+  "PackagingId": 5,
+  "DecantNote": 28645,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 93,
   "Weight": 1250,
-  "LotNumber": "261419",
-  "Packaging": "Panther",
-  "DecantNote": "28655",
-  "Status": "Allocated"
+  "LotNumberId": 195,
+  "PackagingId": 5,
+  "DecantNote": 28655,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 93,
   "Weight": 450,
-  "LotNumber": "261419",
-  "Packaging": "28655",
-  "DecantNote": "28655",
-  "Status": "Stock"
+  "LotNumberId": 195,
+  "PackagingId": 5,
+  "DecantNote": 28655,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 94,
   "Weight": 905,
-  "LotNumber": "259319",
+  "LotNumberId": 175,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 94,
   "Weight": 1250,
-  "LotNumber": "259319",
+  "LotNumberId": 175,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 94,
   "Weight": 814,
-  "LotNumber": "259319",
+  "LotNumberId": 175,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 95,
   "Weight": 300,
-  "LotNumber": "258519",
-  "Packaging": "Panther",
-  "DecantNote": "28616",
-  "Status": "Stock"
+  "LotNumberId": 168,
+  "PackagingId": 5,
+  "DecantNote": 28616,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 96,
   "Weight": 125,
-  "LotNumber": "246817",
-  "Packaging": "Plain",
-  "DecantNote": "24072",
-  "Status": "Stock"
+  "LotNumberId": 105,
+  "PackagingId": 6,
+  "DecantNote": 24072,
+  "StatusId": 2
  },
  {
   "WarehouseId": 4,
   "GradeId": 97,
   "Weight": 353,
-  "LotNumber": "252219",
+  "LotNumberId": 127,
   "BagNumber": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 97,
   "Weight": 5000,
-  "LotNumber": "257319",
-  "Packaging": "Panther",
-  "DecantNote": "28623",
-  "Status": "Stock"
+  "LotNumberId": 161,
+  "PackagingId": 5,
+  "DecantNote": 28623,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 97,
   "Weight": 200,
-  "LotNumber": "257319",
-  "Packaging": "Panther",
-  "DecantNote": "28544",
-  "Status": "Stock"
+  "LotNumberId": 161,
+  "PackagingId": 5,
+  "DecantNote": 28544,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 98,
   "Weight": 1251,
-  "LotNumber": "209717",
+  "LotNumberId": 10,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 98,
   "Weight": 245,
-  "LotNumber": "209717",
+  "LotNumberId": 10,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 100,
-  "LotNumber": "257619",
+  "LotNumberId": 164,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 1200,
-  "LotNumber": "260919",
+  "LotNumberId": 191,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 1208,
-  "LotNumber": "260919",
+  "LotNumberId": 191,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 1252,
-  "LotNumber": "260919",
+  "LotNumberId": 191,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 1253,
-  "LotNumber": "260919",
+  "LotNumberId": 191,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 317,
-  "LotNumber": "260919",
+  "LotNumberId": 191,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 1165,
-  "LotNumber": "262619",
+  "LotNumberId": 206,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 1250,
-  "LotNumber": "262619",
+  "LotNumberId": 206,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 1250,
-  "LotNumber": "262619",
+  "LotNumberId": 206,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 1250,
-  "LotNumber": "262619",
+  "LotNumberId": 206,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 609,
-  "LotNumber": "262619",
+  "LotNumberId": 206,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 1252,
-  "LotNumber": "263319",
+  "LotNumberId": 212,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 99,
   "Weight": 1251,
-  "LotNumber": "263319",
+  "LotNumberId": 212,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 99,
   "Weight": 1975,
-  "LotNumber": "245019",
-  "Packaging": "Panther",
-  "DecantNote": "28305",
-  "Status": "Stock"
+  "LotNumberId": 96,
+  "PackagingId": 5,
+  "DecantNote": 28305,
+  "StatusId": 2
  },
  {
   "WarehouseId": 4,
   "GradeId": 99,
   "Weight": 3750,
-  "LotNumber": "245019",
-  "Packaging": "Panther",
-  "DecantNote": "28305",
-  "Status": "Stock"
+  "LotNumberId": 96,
+  "PackagingId": 5,
+  "DecantNote": 28305,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 100,
-  "LotNumber": "227119",
-  "Packaging": "Panther",
-  "DecantNote": "27371",
-  "Status": "Stock"
+  "LotNumberId": 52,
+  "PackagingId": 5,
+  "DecantNote": 27371,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 1250,
-  "LotNumber": "234619",
-  "Packaging": "Plain",
-  "DecantNote": "27374",
-  "Status": "Stock"
+  "LotNumberId": 71,
+  "PackagingId": 6,
+  "DecantNote": 27374,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 5000,
-  "LotNumber": "244919",
-  "Packaging": "Panther",
-  "DecantNote": "28510",
-  "Status": "Stock"
+  "LotNumberId": 95,
+  "PackagingId": 5,
+  "DecantNote": 28510,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 5000,
-  "LotNumber": "247819",
-  "Packaging": "Panther",
-  "DecantNote": "27399",
-  "Status": "Stock"
+  "LotNumberId": 110,
+  "PackagingId": 5,
+  "DecantNote": 27399,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 1250,
-  "LotNumber": "247919",
-  "Packaging": "Panther",
-  "DecantNote": "28504",
-  "Status": "Stock"
+  "LotNumberId": 112,
+  "PackagingId": 5,
+  "DecantNote": 28504,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 1250,
-  "LotNumber": "247919",
-  "Packaging": "Panther",
-  "DecantNote": "28469",
-  "Status": "Stock"
+  "LotNumberId": 112,
+  "PackagingId": 5,
+  "DecantNote": 28469,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 1250,
-  "LotNumber": "247919",
-  "Packaging": "Plain",
-  "DecantNote": "28652",
-  "Status": "Stock"
+  "LotNumberId": 112,
+  "PackagingId": 6,
+  "DecantNote": 28652,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 5000,
-  "LotNumber": "252919",
-  "Packaging": "Panther",
-  "DecantNote": "28507",
-  "Status": "Stock"
+  "LotNumberId": 132,
+  "PackagingId": 5,
+  "DecantNote": 28507,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 5000,
-  "LotNumber": "252919",
-  "Packaging": "Panther",
-  "DecantNote": "28508",
-  "Status": "Stock"
+  "LotNumberId": 132,
+  "PackagingId": 5,
+  "DecantNote": 28508,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 2500,
-  "LotNumber": "252919",
-  "Packaging": "Panther",
-  "DecantNote": "28506",
-  "Status": "Stock"
+  "LotNumberId": 132,
+  "PackagingId": 5,
+  "DecantNote": 28506,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 1250,
-  "LotNumber": "257619",
-  "Packaging": "Panther",
-  "DecantNote": "28509",
-  "Status": "Stock"
+  "LotNumberId": 164,
+  "PackagingId": 5,
+  "DecantNote": 28509,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 99,
   "Weight": 2500,
-  "LotNumber": "257619",
-  "Packaging": "Panther",
-  "DecantNote": "28672",
-  "Status": "Stock"
+  "LotNumberId": 164,
+  "PackagingId": 5,
+  "DecantNote": 28672,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 100,
   "Weight": 1250,
-  "LotNumber": "262719",
+  "LotNumberId": 208,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 100,
   "Weight": 965,
-  "LotNumber": "262719",
+  "LotNumberId": 208,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 100,
   "Weight": 500,
-  "LotNumber": "252519",
-  "Packaging": "Panther",
-  "DecantNote": "28658",
-  "Status": "Allocated"
+  "LotNumberId": 129,
+  "PackagingId": 5,
+  "DecantNote": 28658,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 100,
   "Weight": 250,
-  "LotNumber": "252519",
-  "Packaging": "Panther",
-  "DecantNote": "28381",
-  "Status": "Stock"
+  "LotNumberId": 129,
+  "PackagingId": 5,
+  "DecantNote": 28381,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1228,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1254,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 10,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1253,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 11,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1250,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 12,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1256,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 13,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1254,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 14,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1253,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 15,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1225,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 16,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1250,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 17,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1253,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 18,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1253,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 19,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1249,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 524,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 20,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1257,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1254,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1256,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1258,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1251,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 7,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1254,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 101,
   "Weight": 1256,
-  "LotNumber": "261019",
+  "LotNumberId": 192,
   "BagNumber": 9,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 4,
   "GradeId": 101,
   "Weight": 1330,
-  "LotNumber": "203719"
+  "LotNumberId": 6
  },
  {
   "WarehouseId": 5,
   "GradeId": 101,
   "Weight": 75,
-  "LotNumber": "257819",
-  "Packaging": "Panther",
-  "DecantNote": "28611",
-  "Status": "Allocated"
+  "LotNumberId": 165,
+  "PackagingId": 5,
+  "DecantNote": 28611,
+  "StatusId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 102,
   "Weight": 1250,
-  "LotNumber": "253919",
+  "LotNumberId": 139,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 102,
   "Weight": 385,
-  "LotNumber": "253919",
+  "LotNumberId": 139,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 103,
   "Weight": 15,
-  "LotNumber": "256914G"
+  "LotNumberId": 155
  },
  {
   "WarehouseId": 5,
   "GradeId": 103,
   "Weight": 80,
-  "LotNumber": "258615G"
+  "LotNumberId": 169
  },
  {
   "WarehouseId": 5,
   "GradeId": 103,
   "Weight": 420,
-  "LotNumber": "258615G"
+  "LotNumberId": 169
  },
  {
   "WarehouseId": 5,
   "GradeId": 103,
   "Weight": 118,
-  "LotNumber": "278915G"
+  "LotNumberId": 215
  },
  {
   "WarehouseId": 1,
   "GradeId": 104,
   "Weight": 1250,
-  "LotNumber": "254519",
+  "LotNumberId": 142,
   "BagNumber": 8,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 104,
   "Weight": 200,
-  "LotNumber": "239019",
-  "Packaging": "Plain",
-  "DecantNote": "28131",
-  "Status": "Stock"
+  "LotNumberId": 76,
+  "PackagingId": 6,
+  "DecantNote": 28131,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 104,
   "Weight": 125,
-  "LotNumber": "244219",
-  "Packaging": "Panther",
-  "DecantNote": "28448",
-  "Status": "Allocated"
+  "LotNumberId": 92,
+  "PackagingId": 5,
+  "DecantNote": 28448,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 104,
   "Weight": 100,
-  "LotNumber": "244219",
-  "Packaging": "Plain",
-  "DecantNote": "28137",
-  "Status": "Stock"
+  "LotNumberId": 92,
+  "PackagingId": 6,
+  "DecantNote": 28137,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 105,
   "Weight": 450,
-  "LotNumber": "208419",
-  "Packaging": "Panther",
-  "DecantNote": "28648",
-  "Status": "Allocated"
+  "LotNumberId": 9,
+  "PackagingId": 5,
+  "DecantNote": 28648,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 106,
   "Weight": 1000,
-  "LotNumber": "258019",
-  "Packaging": "Panther",
-  "DecantNote": "28695",
-  "Status": "Allocated"
+  "LotNumberId": 166,
+  "PackagingId": 5,
+  "DecantNote": 28695,
+  "StatusId": 1
  },
  {
   "WarehouseId": 5,
   "GradeId": 106,
   "Weight": 850,
-  "LotNumber": "258019",
-  "Packaging": "Panther",
-  "DecantNote": "28695",
-  "Status": "Stock"
+  "LotNumberId": 166,
+  "PackagingId": 5,
+  "DecantNote": 28695,
+  "StatusId": 2
  },
  {
   "WarehouseId": 5,
   "GradeId": 107,
   "Weight": 600,
-  "LotNumber": "257519",
-  "Packaging": "Plain",
-  "DecantNote": "28523",
-  "Status": "Stock"
+  "LotNumberId": 163,
+  "PackagingId": 6,
+  "DecantNote": 28523,
+  "StatusId": 2
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 1250,
-  "LotNumber": "220819",
+  "LotNumberId": 40,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 1267,
-  "LotNumber": "230819",
+  "LotNumberId": 62,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 1260,
-  "LotNumber": "230819",
+  "LotNumberId": 62,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 835,
-  "LotNumber": "230819",
+  "LotNumberId": 62,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 1000,
-  "LotNumber": "250819",
+  "LotNumberId": 124,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 1005,
-  "LotNumber": "250819",
+  "LotNumberId": 124,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 1007,
-  "LotNumber": "250819",
+  "LotNumberId": 124,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 1001,
-  "LotNumber": "250819",
+  "LotNumberId": 124,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 1250,
-  "LotNumber": "250819",
+  "LotNumberId": 124,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 196,
-  "LotNumber": "250819",
+  "LotNumberId": 124,
   "BagNumber": 6,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 1259,
-  "LotNumber": "252819",
+  "LotNumberId": 131,
   "BagNumber": 1,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 1250,
-  "LotNumber": "252819",
+  "LotNumberId": 131,
   "BagNumber": 2,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 1250,
-  "LotNumber": "252819",
+  "LotNumberId": 131,
   "BagNumber": 3,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 994,
-  "LotNumber": "252819",
+  "LotNumberId": 131,
   "BagNumber": 4,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 1,
   "GradeId": 108,
   "Weight": 131,
-  "LotNumber": "254318",
+  "LotNumberId": 140,
   "BagNumber": 5,
-  "Packaging": "Big Bag"
+  "PackagingId": 1
  },
  {
   "WarehouseId": 6,
   "GradeId": 109,
   "Weight": 350,
-  "LotNumber": "220319"
+  "LotNumberId": 38
  },
  {
   "WarehouseId": 6,
   "GradeId": 110,
   "Weight": 25,
-  "LotNumber": "220617"
+  "LotNumberId": 39
  },
  {
   "WarehouseId": 6,
   "GradeId": 111,
   "Weight": 8,
-  "LotNumber": "257117"
+  "LotNumberId": 158
  }
 ]

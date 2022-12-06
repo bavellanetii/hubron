@@ -18,6 +18,10 @@ namespace Infrastructure.Data
         public DbSet<Product> Products { get; set; }
         public DbSet<Warehouse> Warehouses { get; set; }
         public DbSet<Grade> Grades { get; set; }
+        public DbSet<LotNumber> LotNumbers { get; set; }
+        public DbSet<Packaging> Packaging { get; set; }
+        public DbSet<Status> Statuses { get; set; }
+        
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

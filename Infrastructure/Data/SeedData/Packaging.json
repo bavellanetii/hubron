@@ -1,0 +1,42 @@
+[
+ {
+  "Id": 1,
+  "Name": "Big Bag"
+ },
+ {
+  "Id": 2,
+  "Name": "Octabin Small"
+ },
+ {
+  "Id": 3,
+  "Name": "Octabin Medium"
+ },
+ {
+  "Id": 4,
+  "Name": "Octabin Large"
+ },
+ {
+  "Id": 5,
+  "Name": "Panther"
+ },
+ {
+  "Id": 6,
+  "Name": "Plain"
+ },
+ {
+  "Id": 7,
+  "Name": "Trinseo"
+ },
+ {
+  "Id": 8,
+  "Name": "Black"
+ },
+ {
+  "Id": 9,
+  "Name": "Foil"
+ },
+ {
+  "Id": 10,
+  "Name": "Valve Sacks"
+ }
+]

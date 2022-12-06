@@ -16,13 +16,14 @@ namespace Infrastructure.Data
             _context = context;
         }
 
-
-
         public async Task<Product> GetProductByIdAsync(int id)
         {
             return await _context.Products
                 .Include(g => g.Grade)
                 .Include(w => w.Warehouse)
+                .Include(l => l.LotNumber)
+                .Include(p => p.Packaging)
+                .Include(s => s.Status)
                 .FirstOrDefaultAsync(p => p.Id == id);
         }
 
@@ -31,6 +32,9 @@ namespace Infrastructure.Data
             return await _context.Products
                 .Include(g => g.Grade)
                 .Include(w => w.Warehouse)
+                .Include(l => l.LotNumber)
+                .Include(p => p.Packaging)
+                .Include(s => s.Status)
                 .ToListAsync();
         }
 
@@ -42,6 +46,21 @@ namespace Infrastructure.Data
         public async Task<IReadOnlyList<Grade>> GetGradesAsync()
         {
             return await _context.Grades.ToListAsync();
+        }
+
+        public async Task<IReadOnlyList<LotNumber>> GetLotNumbersAsync()
+        {
+            return await _context.LotNumbers.ToListAsync();
+        }
+
+        public async Task<IReadOnlyList<Status>> GetStatusesAsync()
+        {
+            return await _context.Statuses.ToListAsync();
+        }
+
+        public async Task<IReadOnlyList<Packaging>> GetPackagingAsync()
+        {
+            return await _context.Packaging.ToListAsync();
         }
     }
 }
