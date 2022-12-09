@@ -13,10 +13,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-
-    public class ProductsController : ControllerBase
+        public class ProductsController : BaseApiController
     {
         private readonly IGenericRepository<Grade> _gradesRepo;
         private readonly IGenericRepository<Warehouse> _warehousesRepo;
