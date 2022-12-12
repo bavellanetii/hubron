@@ -8,17 +8,17 @@ namespace Core.Entities
     public class LotNumber : BaseEntity
     {
         public string Name { get; set; }
+
+        public int BagCount { get; set; }
         private string year;
         public string Year
         {
-            get{return year; }
+            get { return year; }
             set
             {
                 year = Name.Substring(5);
             }
         }
-        public int BagCount { get; set; }
-        
 
     }
 }
