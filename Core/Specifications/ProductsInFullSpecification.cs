@@ -9,14 +9,13 @@ namespace Core.Specifications
 {
     public class ProductsInFullSpecification : BaseSpecification<Product>
     {
-        public ProductsInFullSpecification(string sort, int? lotNumberId, int? warehouseId, 
-                                           int? packagingId, int? statusId, int? gradeId)
+        public ProductsInFullSpecification(ProductSpecParameters productParams)
             : base(x => 
-                (!lotNumberId.HasValue || x.LotNumberId == lotNumberId) &&
-                (!warehouseId.HasValue || x.WarehouseId == warehouseId) &&
-                (!packagingId.HasValue || x.PackagingId == packagingId) &&
-                (!statusId.HasValue || x.StatusId == statusId) &&
-                (!gradeId.HasValue || x.GradeId == gradeId)
+                (!productParams.LotNumberId.HasValue || x.LotNumberId == productParams.LotNumberId) &&
+                (!productParams.WarehouseId.HasValue || x.WarehouseId == productParams.WarehouseId) &&
+                (!productParams.PackagingId.HasValue || x.PackagingId == productParams.PackagingId) &&
+                (!productParams.StatusId.HasValue || x.StatusId == productParams.StatusId) &&
+                (!productParams.GradeId.HasValue || x.GradeId == productParams.GradeId)
             )
         {
             AddInclude(x => x.Grade);
@@ -27,11 +26,11 @@ namespace Core.Specifications
             
             AddOrderBy(x => x.Grade.Name);
             
-            
+            ApplyPaging(productParams.PageSize * (productParams.PageIndex -1), productParams.PageSize);
 
-            if(!string.IsNullOrEmpty(sort))
+            if(!string.IsNullOrEmpty(productParams.Sort))
             {
-                switch (sort)
+                switch (productParams.Sort)
                 {
                     case "warehouse":
                         AddOrderBy(w => w.Warehouse.Name);
