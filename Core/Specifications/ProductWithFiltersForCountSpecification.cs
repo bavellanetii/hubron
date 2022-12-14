@@ -10,6 +10,7 @@ namespace Core.Specifications
     {
         public ProductWithFiltersForCountSpecification(ProductSpecParameters productParams)
             : base(x => 
+                (string.IsNullOrEmpty(productParams.Search) || x.Grade.Name.ToLower().Contains(productParams.Search)) &&
                 (!productParams.LotNumberId.HasValue || x.LotNumberId == productParams.LotNumberId) &&
                 (!productParams.WarehouseId.HasValue || x.WarehouseId == productParams.WarehouseId) &&
                 (!productParams.PackagingId.HasValue || x.PackagingId == productParams.PackagingId) &&
