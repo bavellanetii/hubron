@@ -9,7 +9,15 @@ namespace Core.Specifications
 {
     public class ProductsInFullSpecification : BaseSpecification<Product>
     {
-        public ProductsInFullSpecification(string sort)
+        public ProductsInFullSpecification(string sort, int? lotNumberId, int? warehouseId, 
+                                           int? packagingId, int? statusId, int? gradeId)
+            : base(x => 
+                (!lotNumberId.HasValue || x.LotNumberId == lotNumberId) &&
+                (!warehouseId.HasValue || x.WarehouseId == warehouseId) &&
+                (!packagingId.HasValue || x.PackagingId == packagingId) &&
+                (!statusId.HasValue || x.StatusId == statusId) &&
+                (!gradeId.HasValue || x.GradeId == gradeId)
+            )
         {
             AddInclude(x => x.Grade);
             AddInclude(x => x.LotNumber);
@@ -29,7 +37,6 @@ namespace Core.Specifications
                         AddOrderBy(w => w.Warehouse.Name);
                         break;
                     case "lotNumberAscending":
-                        AddOrderBy(l => l.LotNumber.Year);
                         AddOrderBy(l => l.LotNumber.Name);
                         break;
                     case "packaging":
