@@ -10,6 +10,7 @@ import { InventoryComponent } from './inventory.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [InventoryComponent]
 })
 export class InventoryModule { }
