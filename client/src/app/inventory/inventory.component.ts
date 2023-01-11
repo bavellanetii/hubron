@@ -19,6 +19,9 @@ export class InventoryComponent {
   packaging: IPackaging[];
   statuses: IStatus[];
   warehouses: IWarehouse[];
+  packagingIdSelected: number = 0;
+  statusIdSelected: number = 0;
+  warehouseIdSelected: number = 0;
   
 
   constructor(private inventoryService: InventoryService) {}
@@ -35,7 +38,7 @@ export class InventoryComponent {
 
   getProducts()
   {
-    this.inventoryService.getProducts().subscribe(response => {
+    this.inventoryService.getProducts(this.warehouseIdSelected, this.packagingIdSelected, this.statusIdSelected).subscribe(response => {
       this.products = response.data;
     }, error => {
       console.log(error);
@@ -63,7 +66,7 @@ export class InventoryComponent {
   getPackaging()
   {
     this.inventoryService.getPackaging().subscribe(response => {
-      this.packaging = response;
+      this.packaging = [{id: 0, name: 'All'}, ...response];
     }, error => {
       console.log(error);
     });
@@ -72,7 +75,7 @@ export class InventoryComponent {
   getStatuses()
   {
     this.inventoryService.getStatuses().subscribe(response => {
-      this.statuses = response;
+      this.statuses = [{id: 0, name: 'All'}, ...response];
     }, error => {
       console.log(error);
     });
@@ -81,10 +84,28 @@ export class InventoryComponent {
   getWarehouses()
   {
     this.inventoryService.getWarehouses().subscribe(response => {
-      this.warehouses = response;
+      this.warehouses = [{id: 0, name: 'All'}, ...response];
     }, error => {
       console.log(error);
     });
+  }
+
+  onWarehouseSelected(warehouseId: number)
+  {
+    this.warehouseIdSelected = warehouseId;
+    this.getProducts();
+  }
+
+  onPackagingSelected(packagingId: number)
+  {
+    this.packagingIdSelected = packagingId;
+    this.getProducts();
+  }
+
+  onStatusSelected(statusId: number)
+  {
+    this.statusIdSelected = statusId;
+    this.getProducts();
   }
 
 }

@@ -14,7 +14,13 @@
                       <div class="warehouseFilter">Warehouses</div>                      
                     </div>                  
                 </li>
-                <li class="list-group-item" *ngFor="let warehouse of warehouses">{{warehouse.name}}</li>
+                <li class="list-group-item" 
+                  *ngFor="let warehouse of warehouses"
+                  [class.active]="warehouse.id === this.warehouseIdSelected"
+                  [value]="warehouse.id"
+                  (click)="onWarehouseSelected(warehouse.id)"
+                >
+                  {{warehouse.name}}</li>
               </ul>
 
               <ul class="list-group">
@@ -23,7 +29,14 @@
                       <div class="packagingFilter">Packaging</div>                      
                     </div>                  
                 </li>
-                <li class="list-group-item" *ngFor="let packaging of packaging">{{packaging.name}}</li>
+                <li class="list-group-item" 
+                  *ngFor="let packaging of packaging"
+                  [class.active]="packaging.id === this.packagingIdSelected"
+                  [value]="packaging.id"
+                  (click)="onPackagingSelected(packaging.id)"  
+                  >
+                    {{packaging.name}}
+                </li>
               </ul>
 
               <ul class="list-group">
@@ -32,7 +45,14 @@
                       <div class="statusFilter">Status</div>                      
                     </div>                  
                 </li>
-                <li class="list-group-item" *ngFor="let status of statuses">{{status.name}}</li>
+                <li class="list-group-item" 
+                  *ngFor="let status of statuses"
+                  [class.active]="status.id === this.statusIdSelected"
+                  [value]="status.id"
+                  (click)="onStatusSelected(status.id)"
+                >
+                {{status.name}}
+              </li>
               </ul>
         </section>
         

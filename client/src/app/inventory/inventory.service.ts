@@ -1,5 +1,6 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { map } from 'rxjs';
 import { IGrade } from '../shared/models/grade';
 import { ILotNumber } from '../shared/models/lotnumber';
 import { IPackaging } from '../shared/models/packaging';
@@ -15,9 +16,31 @@ export class InventoryService {
 
   constructor(private http: HttpClient) { }
 
-  getProducts()
+  getProducts(packagingId?: number, statusId?: number, warehouseId?: number)
   {
-    return this.http.get<IPagination>(this.baseUrl + 'products?pageSize=20');
+    let params = new HttpParams();
+
+    if (packagingId) 
+    {
+      params = params.append('packagingId', packagingId.toString());
+    }
+
+    if (statusId) 
+    {
+      params = params.append('statusId', statusId.toString());
+    }
+
+    if (warehouseId) 
+    {
+      params = params.append('warehouseId', warehouseId.toString());
+    }
+
+    return this.http.get<IPagination>(this.baseUrl + 'products', {observe: 'response', params})
+      .pipe(
+        map(response => {
+          return response.body;
+        })
+      );
   }
 
   getGrades()
