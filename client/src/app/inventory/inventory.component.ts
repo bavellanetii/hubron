@@ -22,6 +22,12 @@ export class InventoryComponent {
   packagingIdSelected: number = 0;
   statusIdSelected: number = 0;
   warehouseIdSelected: number = 0;
+  sortSelected = 'default';
+  sortOptions = [
+    {name: 'Grade', value: 'default'},
+    {name: 'Warehouse', value: 'warehouse'},
+    {name: 'Lot Number', value: 'lotNumberAscending'}
+  ];
   
 
   constructor(private inventoryService: InventoryService) {}
@@ -38,7 +44,9 @@ export class InventoryComponent {
 
   getProducts()
   {
-    this.inventoryService.getProducts(this.warehouseIdSelected, this.packagingIdSelected, this.statusIdSelected).subscribe(response => {
+    this.inventoryService.getProducts(
+      this.warehouseIdSelected, this.packagingIdSelected, this.statusIdSelected, this.sortSelected
+      ).subscribe(response => {
       this.products = response.data;
     }, error => {
       console.log(error);
@@ -108,4 +116,9 @@ export class InventoryComponent {
     this.getProducts();
   }
 
+  onSortSelected(sort: string)
+  {
+    this.sortSelected = sort;
+    this.getProducts();
+  }
 }

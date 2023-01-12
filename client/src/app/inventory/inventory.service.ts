@@ -16,7 +16,7 @@ export class InventoryService {
 
   constructor(private http: HttpClient) { }
 
-  getProducts(packagingId?: number, statusId?: number, warehouseId?: number)
+  getProducts(packagingId?: number, statusId?: number, warehouseId?: number, sort?: string)
   {
     let params = new HttpParams();
 
@@ -33,6 +33,11 @@ export class InventoryService {
     if (warehouseId) 
     {
       params = params.append('warehouseId', warehouseId.toString());
+    }
+
+    if (sort)
+    {
+      params = params.append('sort', sort);
     }
 
     return this.http.get<IPagination>(this.baseUrl + 'products', {observe: 'response', params})

@@ -1,90 +1,91 @@
 <div class="container">
-    <div class="row">
-        
-        <section class="col-3">
-            <h5>Sort</h5>
-              <select class="custom-select">
-                <option>Warehouse</option>
-                <option>Grade</option>
-              </select>
-              
-            <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div class="ms-2 me-auto">
-                      <div class="warehouseFilter">Warehouses</div>                      
-                    </div>                  
-                </li>
-                <li class="list-group-item" 
-                  *ngFor="let warehouse of warehouses"
-                  [class.active]="warehouse.id === this.warehouseIdSelected"
-                  [value]="warehouse.id"
-                  (click)="onWarehouseSelected(warehouse.id)"
-                >
-                  {{warehouse.name}}</li>
-              </ul>
+  <div class="row">
 
-              <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div class="ms-2 me-auto">
-                      <div class="packagingFilter">Packaging</div>                      
-                    </div>                  
-                </li>
-                <li class="list-group-item" 
-                  *ngFor="let packaging of packaging"
-                  [class.active]="packaging.id === this.packagingIdSelected"
-                  [value]="packaging.id"
-                  (click)="onPackagingSelected(packaging.id)"  
-                  >
-                    {{packaging.name}}
-                </li>
-              </ul>
-
-              <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between align-items-start">
-                    <div class="ms-2 me-auto">
-                      <div class="statusFilter">Status</div>                      
-                    </div>                  
-                </li>
-                <li class="list-group-item" 
-                  *ngFor="let status of statuses"
-                  [class.active]="status.id === this.statusIdSelected"
-                  [value]="status.id"
-                  (click)="onStatusSelected(status.id)"
-                >
-                {{status.name}}
-              </li>
-              </ul>
-        </section>
-        
-        <section class="col-9">
-            <table class="table table-bordered table-hover">
-                <thead class = thead-dark>
-                  <tr>
-                    <th scope="col">Warehouse</th>
-                    <th scope="col">Grade</th>
-                    <th scope="col">Weight(kg)</th>
-                    <th scope="col">Lot Number</th>
-                    <th scope="col">Bag Number</th>
-                    <th scope="col">Packaging</th>
-                    <th scope="col">Decant Note</th>
-                    <th scope="col">Status</th>
-                    <th scope="col">Notes</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr *ngFor="let product of products">
-                    <td>{{product.warehouse}}</td>
-                    <td>{{product.grade}}</td>
-                    <td>{{product.weight}}</td>
-                    <td>{{product.lotNumber}}</td>
-                    <td>{{product.bagNumber}}</td>
-                    <td>{{product.packaging}}</td>
-                    <td>{{product.decantNote}}</td>
-                    <td>{{product.status}}</td>
-                    <td>{{product.notes}}</td>
-                  </tr>
-                </tbody>
-              </table>
-        </section>
+    <section class="col-3">
+      <div class="d-flex justify-content-center">
+      <header class="sortHeader">Sort</header>
     </div>
+      <select class="custom-select" (change)="onSortSelected($event.target.value)">
+        <option *ngFor="let sort of sortOptions" [value]="sort.value">
+          {{sort.name}}
+        </option>
+      </select>
+
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="warehouseFilter">Warehouses</div>
+          </div>
+        </li>
+        <li class="list-group-item" *ngFor="let warehouse of warehouses"
+          [class.active]="warehouse.id === this.warehouseIdSelected" [value]="warehouse.id"
+          (click)="onWarehouseSelected(warehouse.id)">
+          {{warehouse.name}}</li>
+      </ul>
+
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="packagingFilter">Packaging</div>
+          </div>
+        </li>
+        <li class="list-group-item" *ngFor="let packaging of packaging"
+          [class.active]="packaging.id === this.packagingIdSelected" [value]="packaging.id"
+          (click)="onPackagingSelected(packaging.id)">
+          {{packaging.name}}
+        </li>
+      </ul>
+
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="statusFilter">Status</div>
+          </div>
+        </li>
+        <li class="list-group-item" *ngFor="let status of statuses" [class.active]="status.id === this.statusIdSelected"
+          [value]="status.id" (click)="onStatusSelected(status.id)">
+          {{status.name}}
+        </li>
+      </ul>
+    </section>
+
+    <section class="col-9">
+      <div class="d-flex justify-content-center">
+      <header class="tableHeader">Inventory</header>
+      </div>
+      <table class="table table-bordered table-hover">
+        <thead class=thead-dark>
+          <tr>
+            <th scope="col">Warehouse</th>
+            <th scope="col">Grade</th>
+            <th scope="col">Weight(kg)</th>
+            <th scope="col">Lot Number</th>
+            <th scope="col">Bag Number</th>
+            <th scope="col">Packaging</th>
+            <th scope="col">Decant Note</th>
+            <th scope="col">Status</th>
+            <th scope="col">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products">
+            <td>{{product.warehouse}}</td>
+            <td>{{product.grade}}</td>
+            <td>{{product.weight}}</td>
+            <td>{{product.lotNumber}}</td>
+            <td>{{product.bagNumber}}</td>
+            <td>{{product.packaging}}</td>
+            <td>{{product.decantNote}}</td>
+            <td>{{product.status}}</td>
+            <td>{{product.notes}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="d-flex justify-content-center">
+        <pagination [boundaryLinks]="true" [totalItems]="77" previousText="&lsaquo;" nextText="&rsaquo;"
+          firstText="&laquo;" lastText="&raquo;">
+        </pagination>
+      </div>
+    </section>
+  </div>
 </div>
