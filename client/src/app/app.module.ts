@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule} from '@angular/common/http';
 import { CoreModule } from './core/core.module';
 import { InventoryModule } from './inventory/inventory.module';
+import { HomeModule } from './home/home.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +17,8 @@ import { InventoryModule } from './inventory/inventory.module';
     BrowserAnimationsModule,
     HttpClientModule,
     CoreModule,
-    InventoryModule
+    InventoryModule,
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
