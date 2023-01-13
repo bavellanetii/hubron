@@ -36,6 +36,11 @@ export class InventoryService {
       params = params.append('warehouseId', inventoryParams.warehouseId.toString());
     }
 
+    if (inventoryParams.search)
+    {
+      params = params.append('search', inventoryParams.search);
+    }
+
       params = params.append('sort', inventoryParams.sort);
       params = params.append('pageIndex', inventoryParams.pageNumber.toString());
       params = params.append('pageIndex', inventoryParams.pageSize.toString());

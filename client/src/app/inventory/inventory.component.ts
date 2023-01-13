@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 import { InventoryParams } from '../shared/inventoryParams';
 import { IGrade } from '../shared/models/grade';
 import { ILotNumber } from '../shared/models/lotnumber';
@@ -14,6 +14,7 @@ import { InventoryService } from './inventory.service';
   styleUrls: ['./inventory.component.scss']
 })
 export class InventoryComponent {
+  @ViewChild('search', {static: true}) searchTerm: ElementRef;
   products: IProduct[];
   grades: IGrade[];
   lotnumbers: ILotNumber[];
@@ -102,30 +103,51 @@ export class InventoryComponent {
   onWarehouseSelected(warehouseId: number)
   {
     this.inventoryParams.warehouseId = warehouseId;
+    this.inventoryParams.pageNumber = 1;
     this.getProducts();
   }
 
   onPackagingSelected(packagingId: number)
   {
     this.inventoryParams.packagingId = packagingId;
+    this.inventoryParams.pageNumber = 1;
     this.getProducts();
   }
 
   onStatusSelected(statusId: number)
   {
     this.inventoryParams.statusId = statusId;
+    this.inventoryParams.pageNumber = 1;
     this.getProducts();
   }
 
   onSortSelected(sort: string)
   {
     this.inventoryParams.sort = sort;
+    this.inventoryParams.pageNumber = 1;
     this.getProducts();
   }
 
   onPageChanged(event: any)
   {
-    this.inventoryParams.pageNumber = event.page;
+    if(this.inventoryParams.pageNumber !== event)
+    {
+      this.inventoryParams.pageNumber = event;
+      this.getProducts();
+    }
+  }
+
+  onSearch() 
+  {
+    this.inventoryParams.search = this.searchTerm.nativeElement.value;
+    this.inventoryParams.pageNumber = 1;
+    this.getProducts();
+  }
+
+  onReset()
+  {
+    this.searchTerm.nativeElement.value = undefined;
+    this.inventoryParams = new InventoryParams();
     this.getProducts();
   }
 

@@ -5,4 +5,5 @@ export class InventoryParams {
     sort = 'default';
     pageNumber = 1;
     pageSize = 25;
+    search: string;
 }
