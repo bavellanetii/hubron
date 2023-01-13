@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { InventoryParams } from '../shared/inventoryParams';
 import { IGrade } from '../shared/models/grade';
 import { ILotNumber } from '../shared/models/lotnumber';
 import { IPackaging } from '../shared/models/packaging';
@@ -19,10 +20,8 @@ export class InventoryComponent {
   packaging: IPackaging[];
   statuses: IStatus[];
   warehouses: IWarehouse[];
-  packagingIdSelected: number = 0;
-  statusIdSelected: number = 0;
-  warehouseIdSelected: number = 0;
-  sortSelected = 'default';
+  inventoryParams = new InventoryParams();
+  totalCount : number;
   sortOptions = [
     {name: 'Grade', value: 'default'},
     {name: 'Warehouse', value: 'warehouse'},
@@ -44,10 +43,12 @@ export class InventoryComponent {
 
   getProducts()
   {
-    this.inventoryService.getProducts(
-      this.warehouseIdSelected, this.packagingIdSelected, this.statusIdSelected, this.sortSelected
-      ).subscribe(response => {
+    this.inventoryService.getProducts(this.inventoryParams)
+    .subscribe(response => {
       this.products = response.data;
+      this.inventoryParams.pageNumber = response.pageIndex;
+      this.inventoryParams.pageSize = response.pageSize;
+      this.totalCount = response.count;
     }, error => {
       console.log(error);
     }); 
@@ -100,25 +101,32 @@ export class InventoryComponent {
 
   onWarehouseSelected(warehouseId: number)
   {
-    this.warehouseIdSelected = warehouseId;
+    this.inventoryParams.warehouseId = warehouseId;
     this.getProducts();
   }
 
   onPackagingSelected(packagingId: number)
   {
-    this.packagingIdSelected = packagingId;
+    this.inventoryParams.packagingId = packagingId;
     this.getProducts();
   }
 
   onStatusSelected(statusId: number)
   {
-    this.statusIdSelected = statusId;
+    this.inventoryParams.statusId = statusId;
     this.getProducts();
   }
 
   onSortSelected(sort: string)
   {
-    this.sortSelected = sort;
+    this.inventoryParams.sort = sort;
     this.getProducts();
   }
+
+  onPageChanged(event: any)
+  {
+    this.inventoryParams.pageNumber = event.page;
+    this.getProducts();
+  }
+
 }

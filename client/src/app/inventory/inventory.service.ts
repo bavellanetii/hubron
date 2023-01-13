@@ -1,6 +1,7 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { map } from 'rxjs';
+import { InventoryParams } from '../shared/inventoryParams';
 import { IGrade } from '../shared/models/grade';
 import { ILotNumber } from '../shared/models/lotnumber';
 import { IPackaging } from '../shared/models/packaging';
@@ -16,29 +17,28 @@ export class InventoryService {
 
   constructor(private http: HttpClient) { }
 
-  getProducts(packagingId?: number, statusId?: number, warehouseId?: number, sort?: string)
+  getProducts(inventoryParams: InventoryParams)
   {
     let params = new HttpParams();
 
-    if (packagingId) 
+    if (inventoryParams.packagingId !== 0) 
     {
-      params = params.append('packagingId', packagingId.toString());
+      params = params.append('packagingId', inventoryParams.packagingId.toString());
     }
 
-    if (statusId) 
+    if (inventoryParams.statusId !== 0) 
     {
-      params = params.append('statusId', statusId.toString());
+      params = params.append('statusId', inventoryParams.statusId.toString());
     }
 
-    if (warehouseId) 
+    if (inventoryParams.warehouseId !== 0) 
     {
-      params = params.append('warehouseId', warehouseId.toString());
+      params = params.append('warehouseId', inventoryParams.warehouseId.toString());
     }
 
-    if (sort)
-    {
-      params = params.append('sort', sort);
-    }
+      params = params.append('sort', inventoryParams.sort);
+      params = params.append('pageIndex', inventoryParams.pageNumber.toString());
+      params = params.append('pageIndex', inventoryParams.pageSize.toString());
 
     return this.http.get<IPagination>(this.baseUrl + 'products', {observe: 'response', params})
       .pipe(
