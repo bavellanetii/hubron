@@ -4,6 +4,6 @@ export class InventoryParams {
     warehouseId: number = 0;
     sort = 'default';
     pageNumber = 1;
-    pageSize = 25;
+    pageSize = 30;
     search: string;
 }
