@@ -5,10 +5,11 @@ import { HomeComponent } from './home/home.component';
 import { InventoryComponent } from './inventory/inventory.component';
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
-  {path: 'inventory', component: InventoryComponent},
-  {path: 'decanting', component: DecantingComponent},
-  {path: '**', redirectTo: '', pathMatch: 'full'}
+
+    {path: 'inventory', component: InventoryComponent},
+    {path: 'decanting', component: DecantingComponent},
+  {path: 'home', component: HomeComponent},
+  {path: '**', redirectTo: '/home', pathMatch: 'full'}
 ];
 
 @NgModule({
