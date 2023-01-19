@@ -4,6 +4,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
 import { RouterModule } from '@angular/router';
 import { SectionHeaderComponent } from './section-header/section-header.component';
+import { BreadcrumbModule } from 'xng-breadcrumb';
 
 
 
@@ -11,7 +12,8 @@ import { SectionHeaderComponent } from './section-header/section-header.componen
   declarations: [NavBarComponent, SideBarComponent, SectionHeaderComponent],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    BreadcrumbModule
   ],
   exports: [NavBarComponent, SideBarComponent, SectionHeaderComponent]
 })
