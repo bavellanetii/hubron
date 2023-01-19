@@ -1,6 +1,11 @@
 <div *ngIf="router.url !== '/login'" class = "sidebar">
     <app-side-bar></app-side-bar>
 </div>
+
+    <div *ngIf="router.url !== '/login'" class = "sectionHeader">
+        <app-section-header></app-section-header>
+    </div>
 <div class = "content">
+
     <router-outlet></router-outlet>
 </div>
