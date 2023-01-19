@@ -7,7 +7,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 const routes: Routes = [
 
   { path: 'inventory', loadChildren: () => import('./inventory/inventory.module').then(mod => mod.InventoryModule), data: {breadcrumb: 'Inventory'}},
-  { path: 'decanting', component: DecantingComponent },
+  { path: 'decanting', component: DecantingComponent, data: {breadcrumb: 'Decanting'} },
   { path: 'login', component: LoginComponent },
   
   { path: '', component: DashboardComponent, data: {breadcrumb: 'Home'}}
