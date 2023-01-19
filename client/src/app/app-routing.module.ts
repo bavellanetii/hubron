@@ -6,10 +6,10 @@ import { InventoryComponent } from './inventory/inventory.component';
 
 const routes: Routes = [
 
-    {path: 'inventory', component: InventoryComponent},
-    {path: 'decanting', component: DecantingComponent},
-  {path: 'login', component: LoginComponent},
-  {path: '**', redirectTo: '/login', pathMatch: 'full'}
+  { path: 'inventory', loadChildren: () => import('./inventory/inventory.module').then(mod => mod.InventoryModule) },
+  { path: 'decanting', component: DecantingComponent },
+  { path: 'login', component: LoginComponent },
+  { path: '**', redirectTo: '/login', pathMatch: 'full' }
 ];
 
 @NgModule({

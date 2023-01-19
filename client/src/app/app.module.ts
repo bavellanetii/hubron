@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule} from '@angular/common/http';
 import { CoreModule } from './core/core.module';
-import { InventoryModule } from './inventory/inventory.module';
 import { LoginModule } from './login/login.module';
 @NgModule({
   declarations: [
@@ -17,7 +16,6 @@ import { LoginModule } from './login/login.module';
     BrowserAnimationsModule,
     HttpClientModule,
     CoreModule,
-    InventoryModule,
     LoginModule
   ],
   providers: [],
