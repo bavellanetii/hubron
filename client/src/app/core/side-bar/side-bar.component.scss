@@ -157,6 +157,9 @@ body{
     width: 100%;
     border-radius: 6px;
     text-decoration: none;
+    &.active {
+        color: red;
+    }
     transition: var(--tran-03);
 }
 

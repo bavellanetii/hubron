@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home.component';
+import { LoginComponent } from './login.component';
 import { CoreModule } from '../core/core.module';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from '../app-routing.module';
@@ -9,7 +9,7 @@ import { AppRoutingModule } from '../app-routing.module';
 
 @NgModule({
   declarations: [
-    HomeComponent
+    LoginComponent
   ],
   imports: [
     CommonModule,
@@ -18,7 +18,7 @@ import { AppRoutingModule } from '../app-routing.module';
     AppRoutingModule
   ],
   exports: [
-    HomeComponent
+    LoginComponent
   ]
 })
-export class HomeModule { }
+export class LoginModule { }
