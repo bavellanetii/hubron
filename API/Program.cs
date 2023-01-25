@@ -3,6 +3,7 @@ using API.Helpers;
 using API.Middleware;
 using Core.Interfaces;
 using Infrastructure.Data;
+using Infrastructure.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,6 +17,11 @@ builder.Services.AddAutoMapper(typeof(MappingProfiles));
 builder.Services.AddControllers();
 builder.Services.AddDbContext<WarehouseContext>(x => 
     x.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    
+builder.Services.AddDbContext<AppIdentityDbContext>(x => 
+{
+    x.UseSqlite(builder.Configuration.GetConnectionString("IdentityConnection"));
+});
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("CorsPolicy", policy =>
