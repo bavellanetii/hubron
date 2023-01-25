@@ -6,6 +6,7 @@ using Infrastructure.Data;
 using Infrastructure.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using API.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,9 @@ builder.Services.AddDbContext<AppIdentityDbContext>(x =>
 {
     x.UseSqlite(builder.Configuration.GetConnectionString("IdentityConnection"));
 });
+
+builder.Services.AddIdentityServices();
+
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("CorsPolicy", policy =>
