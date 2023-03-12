@@ -7,6 +7,8 @@ using Infrastructure.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using API.Extensions;
+using Microsoft.AspNetCore.Identity;
+using Core.Entities.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -61,11 +63,15 @@ using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
     var loggerFactory = services.GetRequiredService<ILoggerFactory>();
+    var identityContext = services.GetRequiredService<AppIdentityDbContext>();
+    var userManager = services.GetRequiredService<UserManager<AppUser>>();
     try 
     {
         var context = services.GetRequiredService<WarehouseContext>();
         await context.Database.MigrateAsync();
+        await identityContext.Database.MigrateAsync();
         await WarehouseContextSeed.SeedAsync(context, loggerFactory);
+        await AppIdentityDbContextSeed.SeedUsersAsync(userManager);
     }
     catch (Exception ex)
     {
@@ -87,6 +93,8 @@ app.UseStatusCodePagesWithReExecute("/errors/{0}");
 app.UseHttpsRedirection();
 
 app.UseCors("CorsPolicy");
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
