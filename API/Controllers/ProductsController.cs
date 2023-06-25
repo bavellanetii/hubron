@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using API.Dtos;
 using API.Errors;
 using API.Helpers;
@@ -9,13 +5,11 @@ using AutoMapper;
 using Core.Entities;
 using Core.Interfaces;
 using Core.Specifications;
-using Infrastructure.Data;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-        public class ProductsController : BaseApiController
+    public class ProductsController : BaseApiController
     {
         private readonly IGenericRepository<Grade> _gradesRepo;
         private readonly IGenericRepository<Warehouse> _warehousesRepo;
