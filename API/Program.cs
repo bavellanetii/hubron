@@ -9,24 +9,22 @@ using Microsoft.EntityFrameworkCore;
 using API.Extensions;
 using Microsoft.AspNetCore.Identity;
 using Core.Entities.Identity;
+using Infrastructure.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped(typeof(IGenericRepository<>),(typeof(GenericRepository<>)));
 builder.Services.AddAutoMapper(typeof(MappingProfiles));
 builder.Services.AddControllers();
 builder.Services.AddDbContext<WarehouseContext>(x => 
     x.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
     
-builder.Services.AddDbContext<AppIdentityDbContext>(x => 
-{
-    x.UseSqlite(builder.Configuration.GetConnectionString("IdentityConnection"));
-});
 
-builder.Services.AddIdentityServices();
+builder.Services.AddIdentityServices(builder.Configuration);
 
 builder.Services.AddCors(opt =>
 {
@@ -95,7 +93,6 @@ app.UseHttpsRedirection();
 app.UseCors("CorsPolicy");
 
 app.UseAuthentication();
-
 app.UseAuthorization();
 
 app.MapControllers();
