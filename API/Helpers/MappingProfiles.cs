@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using API.Dtos;
 using AutoMapper;
 using Core.Entities;
+using Core.Entities.Identity;
 
 namespace API.Helpers
 {
@@ -18,6 +19,7 @@ namespace API.Helpers
                 .ForMember(d => d.LotNumber, o => o.MapFrom(s => s.LotNumber.Name))
                 .ForMember(d => d.Packaging, o => o.MapFrom(s => s.Packaging.Name))
                 .ForMember(d => d.Status, o => o.MapFrom(s => s.Status.Name));
+            CreateMap<Address, AddressDto>().ReverseMap();
         }
     }
 }

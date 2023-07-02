@@ -83,7 +83,7 @@ namespace Infrastructure.Identity.Migrations
                     Street = table.Column<string>(type: "TEXT", nullable: true),
                     Town = table.Column<string>(type: "TEXT", nullable: true),
                     PostCode = table.Column<string>(type: "TEXT", nullable: true),
-                    AppUserId = table.Column<string>(type: "TEXT", nullable: false)
+                    AppUserId = table.Column<string>(type: "TEXT", nullable: true)
                 },
                 constraints: table =>
                 {
