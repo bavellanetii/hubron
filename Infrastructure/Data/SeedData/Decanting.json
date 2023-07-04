@@ -1,0 +1,982 @@
+[
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 12,
+  "GradeId": 47,
+  "PackagingId": 5,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 7,
+  "GradeId": 11,
+  "PackagingId": 5,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 2,
+  "GradeId": 52,
+  "PackagingId": 6,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 16,
+  "GradeId": 22,
+  "PackagingId": 6,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 6,
+  "GradeId": 41,
+  "PackagingId": 5,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 19,
+  "GradeId": 95,
+  "PackagingId": 5,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 17,
+  "GradeId": 3,
+  "PackagingId": 5,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 18,
+  "GradeId": 93,
+  "PackagingId": 5,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 14,
+  "GradeId": 108,
+  "PackagingId": 6,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 16,
+  "GradeId": 60,
+  "PackagingId": 5,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 9,
+  "GradeId": 6,
+  "PackagingId": 6,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 3,
+  "GradeId": 106,
+  "PackagingId": 7,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 3,
+  "GradeId": 48,
+  "PackagingId": 8,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 6,
+  "GradeId": 60,
+  "PackagingId": 9,
+  "TotalWeight": 5000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 17,
+  "GradeId": 6,
+  "PackagingId": 10,
+  "TotalWeight": 5000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 10,
+  "GradeId": 106,
+  "PackagingId": 8,
+  "TotalWeight": 5000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 1,
+  "GradeId": 48,
+  "PackagingId": 6,
+  "TotalWeight": 3750,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 12,
+  "GradeId": 97,
+  "PackagingId": 5,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 6,
+  "GradeId": 67,
+  "PackagingId": 5,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 19,
+  "GradeId": 26,
+  "PackagingId": 5,
+  "TotalWeight": 10000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 2,
+  "GradeId": 55,
+  "PackagingId": 6,
+  "TotalWeight": 10000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 3,
+  "GradeId": 10,
+  "PackagingId": 5,
+  "TotalWeight": 15000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 7,
+  "GradeId": 4,
+  "PackagingId": 6,
+  "TotalWeight": 15000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 9,
+  "GradeId": 71,
+  "PackagingId": 10,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 8,
+  "GradeId": 101,
+  "PackagingId": 9,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 6,
+  "GradeId": 104,
+  "PackagingId": 8,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 4,
+  "GradeId": 84,
+  "PackagingId": 5,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 1,
+  "GradeId": 35,
+  "PackagingId": 5,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 10,
+  "GradeId": 9,
+  "PackagingId": 5,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 9,
+  "GradeId": 12,
+  "PackagingId": 6,
+  "TotalWeight": 1000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 1,
+  "GradeId": 50,
+  "PackagingId": 6,
+  "TotalWeight": 500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 13,
+  "GradeId": 30,
+  "PackagingId": 5,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 19,
+  "GradeId": 39,
+  "PackagingId": 6,
+  "TotalWeight": 6250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 12,
+  "GradeId": 84,
+  "PackagingId": 5,
+  "TotalWeight": 7500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 9,
+  "GradeId": 30,
+  "PackagingId": 7,
+  "TotalWeight": 8750,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 9,
+  "GradeId": 74,
+  "PackagingId": 8,
+  "TotalWeight": 10000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 1,
+  "GradeId": 76,
+  "PackagingId": 7,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 19,
+  "GradeId": 5,
+  "PackagingId": 8,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 6,
+  "GradeId": 106,
+  "PackagingId": 9,
+  "TotalWeight": 18000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 16,
+  "GradeId": 28,
+  "PackagingId": 10,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 10,
+  "GradeId": 102,
+  "PackagingId": 6,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 13,
+  "GradeId": 94,
+  "PackagingId": 6,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 12,
+  "GradeId": 40,
+  "PackagingId": 5,
+  "TotalWeight": 23750,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 17,
+  "GradeId": 2,
+  "PackagingId": 5,
+  "TotalWeight": 15000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 10,
+  "GradeId": 75,
+  "PackagingId": 5,
+  "TotalWeight": 12500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 4,
+  "GradeId": 2,
+  "PackagingId": 7,
+  "TotalWeight": 12500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 1,
+  "GradeId": 52,
+  "PackagingId": 7,
+  "TotalWeight": 12500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 8,
+  "GradeId": 74,
+  "PackagingId": 5,
+  "TotalWeight": 10000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 10,
+  "GradeId": 51,
+  "PackagingId": 5,
+  "TotalWeight": 12500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 3,
+  "GradeId": 36,
+  "PackagingId": 6,
+  "TotalWeight": 17500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 7,
+  "GradeId": 52,
+  "PackagingId": 5,
+  "TotalWeight": 17500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 6,
+  "GradeId": 44,
+  "PackagingId": 5,
+  "TotalWeight": 18750,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 14,
+  "GradeId": 49,
+  "PackagingId": 5,
+  "TotalWeight": 6250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 1,
+  "GradeId": 94,
+  "PackagingId": 5,
+  "TotalWeight": 5000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 16,
+  "GradeId": 109,
+  "PackagingId": 5,
+  "TotalWeight": 5000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 10,
+  "GradeId": 47,
+  "PackagingId": 5,
+  "TotalWeight": 5000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 2,
+  "GradeId": 10,
+  "PackagingId": 6,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 19,
+  "GradeId": 48,
+  "PackagingId": 6,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 16,
+  "GradeId": 45,
+  "PackagingId": 5,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 17,
+  "GradeId": 27,
+  "PackagingId": 6,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 11,
+  "GradeId": 21,
+  "PackagingId": 5,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 15,
+  "GradeId": 87,
+  "PackagingId": 6,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 3,
+  "GradeId": 95,
+  "PackagingId": 7,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 12,
+  "GradeId": 95,
+  "PackagingId": 8,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 4,
+  "GradeId": 110,
+  "PackagingId": 9,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 5,
+  "GradeId": 79,
+  "PackagingId": 10,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 4,
+  "GradeId": 35,
+  "PackagingId": 5,
+  "TotalWeight": 1250,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 16,
+  "GradeId": 5,
+  "PackagingId": 6,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 6,
+  "GradeId": 46,
+  "PackagingId": 5,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 16,
+  "GradeId": 78,
+  "PackagingId": 5,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 2,
+  "GradeId": 73,
+  "PackagingId": 5,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 4,
+  "GradeId": 33,
+  "PackagingId": 6,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 15,
+  "GradeId": 71,
+  "PackagingId": 10,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 18,
+  "GradeId": 48,
+  "PackagingId": 9,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 2,
+  "GradeId": 45,
+  "PackagingId": 9,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 3,
+  "GradeId": 29,
+  "PackagingId": 8,
+  "TotalWeight": 2500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 2,
+  "GradeId": 59,
+  "PackagingId": 7,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 18,
+  "GradeId": 29,
+  "PackagingId": 5,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 13,
+  "GradeId": 100,
+  "PackagingId": 6,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 12,
+  "GradeId": 82,
+  "PackagingId": 6,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 16,
+  "GradeId": 104,
+  "PackagingId": 6,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 3,
+  "GradeId": 100,
+  "PackagingId": 6,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 2,
+  "GradeId": 104,
+  "PackagingId": 6,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 13,
+  "GradeId": 100,
+  "PackagingId": 5,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 17,
+  "GradeId": 69,
+  "PackagingId": 5,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 13,
+  "GradeId": 66,
+  "PackagingId": 5,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 12,
+  "GradeId": 9,
+  "PackagingId": 5,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 17,
+  "GradeId": 79,
+  "PackagingId": 5,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 1,
+  "GradeId": 29,
+  "PackagingId": 5,
+  "TotalWeight": 20000,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 5,
+  "GradeId": 35,
+  "PackagingId": 5,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 6,
+  "GradeId": 46,
+  "PackagingId": 5,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 15,
+  "GradeId": 47,
+  "PackagingId": 7,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 19,
+  "GradeId": 44,
+  "PackagingId": 7,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 16,
+  "GradeId": 80,
+  "PackagingId": 7,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 17,
+  "GradeId": 50,
+  "PackagingId": 8,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 1
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 16,
+  "GradeId": 100,
+  "PackagingId": 9,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 17,
+  "GradeId": 82,
+  "PackagingId": 10,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ },
+ {
+  "ProductionDate": "01\/01\/2024",
+  "Despatch Date": "02\/02\/2024",
+  "CustomerId": 3,
+  "GradeId": 17,
+  "PackagingId": 9,
+  "TotalWeight": 22500,
+  "PalletWeight": 1250,
+  "TransportId": 2
+ }
+]
