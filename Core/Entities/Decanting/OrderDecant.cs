@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Core.Entities.Decanting
 {
-    public class Order : BaseEntity
+    public class OrderDecant : BaseEntity
     {
         public DateOnly ProductionDate { get; set; }
         public DateOnly DespatchDate { get; set; }

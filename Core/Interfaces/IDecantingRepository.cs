@@ -9,8 +9,8 @@ namespace Core.Interfaces
 {
     public interface IDecantingRepository
     {
-        Task<Order> GetOrderByIdAsync(int id);
-        Task<IReadOnlyList<Order>> GetOrdersAsync();
+        Task<OrderDecant> GetOrderDecantByIdAsync(int id);
+        Task<IReadOnlyList<OrderDecant>> GetOrderDecantsAsync();
         Task<IReadOnlyList<Customer>> GetCustomersAsync();
         Task<IReadOnlyList<Transport>> GetTransportsAsync();
     }

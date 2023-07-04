@@ -14,12 +14,12 @@ namespace Infrastructure.Data
             throw new NotImplementedException();
         }
 
-        public Task<Order> GetOrderByIdAsync(int id)
+        public Task<OrderDecant> GetOrderDecantByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IReadOnlyList<Order>> GetOrdersAsync()
+        public Task<IReadOnlyList<OrderDecant>> GetOrderDecantsAsync()
         {
             throw new NotImplementedException();
         }
